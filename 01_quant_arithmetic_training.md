@@ -11,89 +11,50 @@ This module contains classic IndiaBix-style questions for the core arithmetic to
 *B. 41, 32*
 *C. 42, 33*
 *D. 43, 34*
-
-**Solution:**
-*   **Step 1:** Let the marks of the two students be $x$ and $(x + 9)$.
-*   **Step 2:** The sum of their marks is $x + (x + 9) = 2x + 9$.
-*   **Step 3:** Setup the equation based on the given condition:
-    $(x + 9) = 56\%$ of $(2x + 9)$
-    $(x + 9) = \frac{56}{100} \times (2x + 9)$
-*   **Step 4:** Simplify:
-    $25 \times (x + 9) = 14 \times (2x + 9)$
-    $25x + 225 = 28x + 126$
-    $3x = 99$
-    $x = 33$
-*   **Final Answer:** Their marks are $33$ and $33+9 = 42$.
-*   **Quick Trick:** Use the options! The difference must be 9 (all have it). The higher mark must be 56% of the sum. For Option C, sum is 75. 56% of 75 = 42. Matches perfectly!
+> **Solution:** Let their marks be $(x + 9)$ and $x$.
+> Sum of their marks = $2x + 9$.
+> Given: $(x + 9) = \frac{56}{100}(2x + 9)$
+> $25(x + 9) = 14(2x + 9) \Rightarrow 25x + 225 = 28x + 126 \Rightarrow 3x = 99 \Rightarrow x = 33$.
+> So, their marks are $42$ and $33$.
+> **Trick:** Use options! Difference must be 9 (all have it). The higher mark must be 56% of the sum. For Option C, sum is 75. 56% of 75 = 42. Matches perfectly!
 
 **Q2. If 20% of a = b, then b% of 20 is the same as:**
 *A. 4% of a*
 *B. 5% of a*
 *C. 20% of a*
 *D. None of these*
-
-**Solution:**
-*   **Step 1:** Translate the first statement into an equation:
-    $b = \frac{20}{100} \times a$
-    $b = \frac{a}{5}$
-*   **Step 2:** Find what $b\%$ of $20$ is:
-    $b\%$ of $20 = \left(\frac{b}{100}\right) \times 20$
-    $= \frac{b}{5}$
-*   **Step 3:** Substitute the value of $b$ from Step 1 into Step 2:
-    $= \frac{a/5}{5}$
-    $= \frac{a}{25}$
-*   **Step 4:** Convert back to a percentage:
-    $\frac{a}{25} \times \frac{4}{4} = \frac{4a}{100} = 4\%$ of $a$.
-*   **Final Answer:** Option A (4% of a).
+> **Solution:** $b = \frac{20}{100}a = \frac{a}{5}$.
+> $b\%$ of $20 = \left(\frac{b}{100}\right) \times 20 = \frac{b}{5}$.
+> Substitute $b = \frac{a}{5}$ into $\frac{b}{5}$: $\left(\frac{a/5}{5}\right) = \frac{a}{25} = \frac{4a}{100} = 4\%$ of $a$.
+> **Trick:** Assume a value. Let $a = 100$. Then $20\%$ of $100 = 20 \Rightarrow b = 20$. Now, $b\%$ of $20 \Rightarrow 20\%$ of $20 = 4$. Check options: $4\%$ of $100 = 4$. Option A is correct.
 
 **Q3. The population of a town increased from 1,75,000 to 2,62,500 in a decade. The average percent increase of population per year is:**
 *A. 4.37%*
 *B. 5%*
 *C. 6%*
 *D. 8.75%*
-
-**Solution:**
-*   **Step 1:** Calculate the total increase in population:
-    $2,62,500 - 1,75,000 = 87,500$
-*   **Step 2:** Calculate the percentage increase for the whole decade (10 years):
-    $\text{Percentage Increase} = \left(\frac{\text{Increase}}{\text{Initial Population}}\right) \times 100$
-    $= \left(\frac{87,500}{1,75,000}\right) \times 100 = 50\%$
-*   **Step 3:** Find the average per year:
-    $\text{Average per year} = \frac{50\%}{10 \text{ years}} = 5\%$
-*   **Final Answer:** Option B.
+> **Solution:** Increase = $2,62,500 - 1,75,000 = 87,500$.
+> Percentage increase for decade = $\left(\frac{87500}{175000}\right) \times 100 = 50\%$.
+> Average percent increase per year = $\frac{50\%}{10} = 5\%$.
 
 **Q4. A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had:**
 *A. 588 apples*
 *B. 600 apples*
 *C. 672 apples*
 *D. 700 apples*
-
-**Solution:**
-*   **Step 1:** If he sells 40%, the percentage of apples left is:
-    $100\% - 40\% = 60\%$
-*   **Step 2:** We know 60% of the total apples equals 420.
-    $60\% \text{ of Total} = 420$
-*   **Step 3:** Solve for Total:
-    $\text{Total} = \frac{420 \times 100}{60}$
-    $\text{Total} = 7 \times 100 = 700$
-*   **Final Answer:** Option D.
+> **Solution:** If he sells 40%, he is left with 60%.
+> $60\%$ of total apples = $420$.
+> Total apples = $\frac{420 \times 100}{60} = 700$.
 
 **Q5. In an election between two candidates, one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got, was:**
 *A. 2700*
 *B. 2900*
 *C. 3000*
 *D. 3100*
-
-**Solution:**
-*   **Step 1:** Find the total number of valid votes:
-    $\text{Valid Votes} = (100\% - 20\%) \text{ of } 7500$
-    $= 80\% \text{ of } 7500 = 6000$
-*   **Step 2:** Calculate the percentage the second candidate received:
-    First candidate got $55\%$.
-    Second candidate got $(100\% - 55\%) = 45\%$ of valid votes.
-*   **Step 3:** Calculate the exact number of votes for the second candidate:
-    $45\% \text{ of } 6000 = \frac{45}{100} \times 6000 = 2700$
-*   **Final Answer:** Option A.
+> **Solution:** Total votes = 7500. Valid votes = 80% of 7500 = $6000$.
+> 1st candidate got 55% of valid votes.
+> 2nd candidate got (100% - 55%) = 45% of valid votes.
+> Votes for 2nd candidate = $45\%$ of $6000 = \frac{45}{100} \times 6000 = 2700$.
 
 ---
 
@@ -104,90 +65,45 @@ This module contains classic IndiaBix-style questions for the core arithmetic to
 *B. 16*
 *C. 18*
 *D. 25*
-
-**Solution:**
-*   **Step 1:** Assume the Cost Price (CP) of 1 article is Rs. 1.
-    Therefore, the CP of $x$ articles is Rs. $x$.
-*   **Step 2:** We are given:
-    Selling Price (SP) of $x$ articles = CP of 20 articles = Rs. 20.
-*   **Step 3:** Setup the profit percentage formula:
-    $\text{Profit \%} = \left(\frac{\text{SP} - \text{CP}}{\text{CP}}\right) \times 100$
-    $25 = \left(\frac{20 - x}{x}\right) \times 100$
-*   **Step 4:** Solve for $x$:
-    $\frac{25}{100} = \frac{20 - x}{x}$
-    $\frac{1}{4} = \frac{20 - x}{x}$
-    $x = 80 - 4x$
-    $5x = 80$
-    $x = 16$
-*   **Final Answer:** Option B.
+> **Solution:** Let CP of 1 article = Re 1. CP of $x$ articles = Rs. $x$.
+> SP of $x$ articles = CP of 20 articles = Rs. 20.
+> Profit = $SP - CP = 20 - x$.
+> Profit % = $\left(\frac{20 - x}{x}\right) \times 100 = 25$.
+> $\frac{20 - x}{x} = \frac{1}{4} \Rightarrow 80 - 4x = x \Rightarrow 5x = 80 \Rightarrow x = 16$.
 
 **Q2. A vendor bought toffees at 6 for a rupee. How many for a rupee must he sell to gain 20%?**
 *A. 3*
 *B. 4*
 *C. 5*
 *D. 6*
-
-**Solution:**
-*   **Step 1:** Find the CP of 1 toffee.
-    $\text{CP of 1 toffee} = \text{Rs. } \frac{1}{6}$
-*   **Step 2:** Calculate the desired SP for a 20% gain.
-    $\text{SP} = \text{CP} \times 1.20$
-    $\text{SP} = \frac{1}{6} \times \frac{120}{100}$
-    $\text{SP} = \frac{1}{6} \times \frac{6}{5} = \text{Rs. } \frac{1}{5}$
-*   **Step 3:** Interpret the SP.
-    If the SP of 1 toffee is Rs. $\frac{1}{5}$, it means he sells 5 toffees for Rs. 1.
-*   **Final Answer:** Option C.
+> **Solution:** CP of 6 toffees = Re 1. CP of 1 toffee = $1/6$.
+> SP to gain 20% = $CP \times 1.20 = \frac{1}{6} \times \frac{120}{100} = \frac{1}{6} \times \frac{6}{5} = \frac{1}{5}$.
+> If SP of 1 toffee is $1/5$ rupee, he sells 5 toffees for a rupee.
 
 **Q3. A man buys a cycle for Rs. 1400 and sells it at a loss of 15%. What is the selling price of the cycle?**
 *A. Rs. 1090*
 *B. Rs. 1160*
 *C. Rs. 1190*
 *D. Rs. 1202*
-
-**Solution:**
-*   **Step 1:** A loss of 15% means the selling price is 85% of the cost price.
-*   **Step 2:** Calculate 85% of Rs. 1400.
-    $\text{SP} = \frac{85}{100} \times 1400$
-    $\text{SP} = 85 \times 14$
-    $\text{SP} = 1190$
-*   **Final Answer:** Option C.
+> **Solution:** SP = $85\%$ of $CP = \frac{85}{100} \times 1400 = 85 \times 14 = 1190$.
 
 **Q4. Some articles were bought at 6 articles for Rs. 5 and sold at 5 articles for Rs. 6. Gain percent is:**
 *A. 30%*
 *B. 33.33%*
 *C. 35%*
 *D. 44%*
-
-**Solution:**
-*   **Method 1 (Standard):**
-    *   $\text{CP of 1 article} = \text{Rs. } \frac{5}{6}$
-    *   $\text{SP of 1 article} = \text{Rs. } \frac{6}{5}$
-    *   $\text{Profit} = \frac{6}{5} - \frac{5}{6} = \frac{36 - 25}{30} = \frac{11}{30}$
-    *   $\text{Gain \%} = \left(\frac{11/30}{5/6}\right) \times 100 = 44\%$
-*   **Method 2 (Quick Cross-Multiply Trick):**
-    *   Buy: 6 items for Rs 5
-    *   Sell: 5 items for Rs 6
-    *   Cross multiply to find Total CP and SP:
-    *   $\text{Total CP} = 5 \times 5 = 25$
-    *   $\text{Total SP} = 6 \times 6 = 36$
-    *   $\text{Profit} = 36 - 25 = 11$
-    *   $\text{Gain \%} = \left(\frac{11}{25}\right) \times 100 = 44\%$
-*   **Final Answer:** Option D.
+> **Solution:** CP of 1 article = $5/6$. SP of 1 article = $6/5$.
+> Gain = $6/5 - 5/6 = \frac{36 - 25}{30} = 11/30$.
+> Gain % = $\left(\frac{11/30}{5/6}\right) \times 100 = \left(\frac{11}{30} \times \frac{6}{5}\right) \times 100 = \frac{11}{25} \times 100 = 44\%$.
+> **Trick:** Cross-multiply. (Buy 6 for 5 -> $5 \times 5 = 25$ (CP)). (Sell 5 for 6 -> $6 \times 6 = 36$ (SP)). Profit = $36-25=11$. Profit% = $(11/25)\times 100 = 44\%$.
 
 **Q5. By selling an article at Rs. 800, a shopkeeper makes a profit of 25%. At what price should he sell it to make a loss of 25%?**
 *A. Rs. 720*
 *B. Rs. 640*
 *C. Rs. 540*
 *D. Rs. 480*
-
-**Solution:**
-*   **Step 1:** Find the original Cost Price (CP). A 25% profit means 125% of CP is Rs. 800.
-    $1.25 \times \text{CP} = 800$
-    $\text{CP} = \frac{800}{1.25} = 640$
-*   **Step 2:** Calculate the new SP for a 25% loss (which means 75% of CP).
-    $\text{New SP} = 0.75 \times 640$
-    $\text{New SP} = 480$
-*   **Final Answer:** Option D.
+> **Solution:** $125\%$ of $CP = 800 \Rightarrow CP = \frac{800 \times 100}{125} = 640$.
+> SP for 25% loss = $75\%$ of $640 = \frac{75}{100} \times 640 = 480$.
 
 ---
 
@@ -198,85 +114,45 @@ This module contains classic IndiaBix-style questions for the core arithmetic to
 *B. 3:5*
 *C. 4:5*
 *D. 6:7*
-
-**Solution:**
-*   **Step 1:** Let the third number be 100.
-*   **Step 2:** Determine the other two numbers.
-    First number = $100 + 20\% = 120$
-    Second number = $100 + 50\% = 150$
-*   **Step 3:** Find their ratio.
-    $\text{Ratio} = 120 : 150$
-    Divide both by 30:
-    $\text{Ratio} = 4 : 5$
-*   **Final Answer:** Option C.
+> **Solution:** Let the third number be 100.
+> First number = 120. Second number = 150.
+> Ratio = $120 : 150 = 12 : 15 = 4 : 5$.
 
 **Q2. A sum of money is to be distributed among A, B, C, D in the proportion of 5:2:4:3. If C gets Rs. 1000 more than D, what is B's share?**
 *A. Rs. 500*
 *B. Rs. 1500*
 *C. Rs. 2000*
 *D. None of these*
-
-**Solution:**
-*   **Step 1:** Let their shares be $5x, 2x, 4x, \text{ and } 3x$ respectively.
-*   **Step 2:** Use the given condition (C gets 1000 more than D).
-    $C's \text{ share} - D's \text{ share} = 1000$
-    $4x - 3x = 1000$
-    $x = 1000$
-*   **Step 3:** Find B's share.
-    $B's \text{ share} = 2x = 2 \times 1000 = 2000$
-*   **Final Answer:** Option C.
+> **Solution:** Let shares be $5x, 2x, 4x, 3x$.
+> Given $C - D = 1000 \Rightarrow 4x - 3x = 1000 \Rightarrow x = 1000$.
+> B's share = $2x = 2 \times 1000 = 2000$.
 
 **Q3. Seats for Mathematics, Physics and Biology in a school are in the ratio 5:7:8. There is a proposal to increase these seats by 40%, 50% and 75% respectively. What will be the ratio of increased seats?**
 *A. 2:3:4*
 *B. 6:7:8*
 *C. 6:8:9*
 *D. 2:3:5*
-
-**Solution:**
-*   **Step 1:** Let the number of seats be 50, 70, and 80 (adding a zero makes percentages easier).
-*   **Step 2:** Calculate the new seats after the increase.
-    Maths: $50 \times 1.40 = 70$
-    Physics: $70 \times 1.50 = 105$
-    Biology: $80 \times 1.75 = 140$
-*   **Step 3:** Find the new ratio.
-    $70 : 105 : 140$
-    Divide all by 35:
-    $2 : 3 : 4$
-*   **Final Answer:** Option A.
+> **Solution:** Let seats be $50, 70, 80$.
+> Increased Math = $50 \times 1.40 = 70$.
+> Increased Physics = $70 \times 1.50 = 105$.
+> Increased Biology = $80 \times 1.75 = 140$.
+> New ratio = $70 : 105 : 140$. Dividing by 35: $2 : 3 : 4$.
 
 **Q4. In a mixture 60 litres, the ratio of milk and water is 2:1. If this ratio is to be 1:2, then the quantity of water to be further added is:**
 *A. 20 litres*
 *B. 30 litres*
 *C. 40 litres*
 *D. 60 litres*
-
-**Solution:**
-*   **Step 1:** Find initial quantities of milk and water.
-    $\text{Milk} = \left(\frac{2}{3}\right) \times 60 = 40 \text{ litres}$
-    $\text{Water} = \left(\frac{1}{3}\right) \times 60 = 20 \text{ litres}$
-*   **Step 2:** Let $x$ litres of water be added. Setup the new ratio.
-    $\frac{\text{Milk}}{\text{Water}} = \frac{1}{2}$
-    $\frac{40}{(20 + x)} = \frac{1}{2}$
-*   **Step 3:** Solve for $x$.
-    $80 = 20 + x$
-    $x = 60$
-*   **Final Answer:** Option D.
+> **Solution:** Initial Milk = $(2/3) \times 60 = 40$L. Water = $20$L.
+> Let $x$ litres of water be added.
+> $\frac{40}{20 + x} = \frac{1}{2} \Rightarrow 80 = 20 + x \Rightarrow x = 60$.
 
 **Q5. The fourth proportional to 5, 8, 15 is:**
 *A. 18*
 *B. 24*
 *C. 19*
 *D. 20*
-
-**Solution:**
-*   **Step 1:** Let the fourth proportional be $x$.
-*   **Step 2:** Setup the proportion format $a : b :: c : d$
-    $5 : 8 = 15 : x$
-*   **Step 3:** Cross multiply (Product of extremes = Product of means).
-    $5 \times x = 8 \times 15$
-    $5x = 120$
-    $x = 24$
-*   **Final Answer:** Option B.
+> **Solution:** $5 : 8 :: 15 : x \Rightarrow 5x = 8 \times 15 \Rightarrow 5x = 120 \Rightarrow x = 24$.
 
 ---
 
@@ -287,89 +163,46 @@ This module contains classic IndiaBix-style questions for the core arithmetic to
 *B. Rs. 690*
 *C. Rs. 698*
 *D. Rs. 700*
-
-**Solution:**
-*   **Step 1:** Find the Simple Interest (SI) for exactly 1 year.
-    $\text{SI for 1 year} = (\text{Amount after 4 years}) - (\text{Amount after 3 years})$
-    $\text{SI} = 854 - 815 = \text{Rs. } 39$
-*   **Step 2:** Find the total SI for 3 years.
-    $39 \times 3 = \text{Rs. } 117$
-*   **Step 3:** Calculate the Principal (Original sum).
-    $\text{Principal} = (\text{Amount after 3 years}) - (\text{SI for 3 years})$
-    $\text{Principal} = 815 - 117 = \text{Rs. } 698$
-*   **Final Answer:** Option C.
+> **Solution:** SI for 1 year = $854 - 815 = 39$.
+> SI for 3 years = $39 \times 3 = 117$.
+> Principal = Amount after 3 years - SI for 3 years = $815 - 117 = 698$.
 
 **Q2. At what rate of compound interest per annum will a sum of Rs. 1200 become Rs. 1348.32 in 2 years?**
 *A. 6%*
 *B. 6.5%*
 *C. 7%*
 *D. 7.5%*
+> **Solution:** Amount = $P(1 + R/100)^n$
+> $1348.32 = 1200(1 + R/100)^2 \Rightarrow \frac{134832}{120000} = (1 + R/100)^2 \Rightarrow \frac{11236}{10000} = (1 + R/100)^2$
+> $\left(\frac{106}{100}\right)^2 = (1 + R/100)^2 \Rightarrow 1 + R/100 = 1.06 \Rightarrow R = 6\%$.
 
-**Solution:**
-*   **Step 1:** Use the Compound Interest Amount formula: $A = P\left(1 + \frac{R}{100}\right)^n$
-    $1348.32 = 1200\left(1 + \frac{R}{100}\right)^2$
-*   **Step 2:** Isolate the squared term.
-    $\frac{1348.32}{1200} = \left(1 + \frac{R}{100}\right)^2$
-    $\frac{134832}{120000} = \left(1 + \frac{R}{100}\right)^2$
-    $\frac{11236}{10000} = \left(1 + \frac{R}{100}\right)^2$
-*   **Step 3:** Take the square root of both sides.
-    $\frac{106}{100} = 1 + \frac{R}{100}$
-*   **Step 4:** Solve for R.
-    $1.06 - 1 = \frac{R}{100}$
-    $R = 6\%$
-*   **Final Answer:** Option A.
-
-**Q3. The simple interest on a certain sum of money for 2.5 years at 12% per annum is Rs. 40 less than the simple interest on the same sum for 3.5 years at 10% per annum. Find the sum.**
+**Q3. The simple interest on a certain sum of money for 2(1/2) years at 12% per annum is Rs. 40 less than the simple interest on the same sum for 3(1/2) years at 10% per annum. Find the sum.**
 *A. Rs. 600*
 *B. Rs. 666*
 *C. Rs. 780*
 *D. Rs. 800*
-
-**Solution:**
-*   **Step 1:** Let the sum (Principal) be $P$.
-*   **Step 2:** Calculate SI for 3.5 years at 10%.
-    $\text{SI}_1 = \frac{P \times 10 \times 3.5}{100} = 0.35P$
-*   **Step 3:** Calculate SI for 2.5 years at 12%.
-    $\text{SI}_2 = \frac{P \times 12 \times 2.5}{100} = 0.30P$
-*   **Step 4:** Setup the equation based on the difference.
-    $0.35P - 0.30P = 40$
-    $0.05P = 40$
-    $P = \frac{40}{0.05} = 800$
-*   **Final Answer:** Option D.
+> **Solution:** Let sum be $P$.
+> SI for 3.5 yrs at 10% = $\frac{P \times 10 \times 3.5}{100} = 0.35P$.
+> SI for 2.5 yrs at 12% = $\frac{P \times 12 \times 2.5}{100} = 0.30P$.
+> $0.35P - 0.30P = 40 \Rightarrow 0.05P = 40 \Rightarrow P = 800$.
 
 **Q4. There is 60% increase in an amount in 6 years at simple interest. What will be the compound interest of Rs. 12,000 after 3 years at the same rate?**
 *A. Rs. 2160*
 *B. Rs. 3120*
 *C. Rs. 3972*
 *D. Rs. 6240*
-
-**Solution:**
-*   **Step 1:** Find the rate of interest ($R$).
-    If it increases by 60% in 6 years at SI, then per year increase is $\frac{60\%}{6} = 10\%$.
-    So, $R = 10\%$.
-*   **Step 2:** Calculate Compound Interest for Rs. 12,000 at 10% for 3 years.
-    $\text{Amount} = P \times \left(1 + \frac{R}{100}\right)^3$
-    $\text{Amount} = 12000 \times (1.1)^3$
-    $\text{Amount} = 12000 \times 1.331 = 15972$
-*   **Step 3:** Subtract principal to find CI.
-    $\text{CI} = 15972 - 12000 = 3972$
-*   **Final Answer:** Option C.
+> **Solution:** Let P=100. SI = 60. Time = 6 yrs.
+> $R = \frac{100 \times 60}{100 \times 6} = 10\%$.
+> CI on 12000 at 10% for 3 yrs:
+> Amount = $12000 \times (1.1)^3 = 12000 \times 1.331 = 15972$.
+> CI = $15972 - 12000 = 3972$.
 
 **Q5. The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Re. 1. The sum is:**
 *A. Rs. 625*
 *B. Rs. 630*
 *C. Rs. 640*
 *D. Rs. 650*
-
-**Solution:**
-*   **Quick Formula:** Difference for 2 years $D = P \times \left(\frac{R}{100}\right)^2$
-*   **Step 1:** Plug in the given values.
-    $1 = P \times \left(\frac{4}{100}\right)^2$
-    $1 = P \times \left(\frac{1}{25}\right)^2$
-*   **Step 2:** Solve for P.
-    $1 = P \times \left(\frac{1}{625}\right)$
-    $P = 625$
-*   **Final Answer:** Option A.
+> **Solution:** **Trick:** $Diff = P(R/100)^2 \Rightarrow 1 = P(4/100)^2 \Rightarrow 1 = P(1/625) \Rightarrow P = 625$.
 
 ---
 
@@ -380,93 +213,44 @@ This module contains classic IndiaBix-style questions for the core arithmetic to
 *B. 1*
 *C. 10*
 *D. 19*
-
-**Solution:**
-*   **Step 1:** Understand the definition of average.
-    Average = 0 means the sum of all 20 numbers is exactly 0.
-*   **Step 2:** Apply logic to maximize positive numbers.
-    You could have 19 massive positive numbers (e.g., $100, 100, \dots$) and just 1 single massive negative number (e.g., $-1900$) that cancels them all out.
-*   **Final Answer:** Therefore, at most 19 numbers can be greater than zero. Option D.
+> **Solution:** Average of 20 numbers = 0 means their sum is 0.
+> You can have 19 extremely large positive numbers, and just 1 massive negative number to balance them to a sum of 0. So, at most 19 can be greater than zero.
 
 **Q2. The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?**
 *A. 23 years*
 *B. 24 years*
 *C. 25 years*
 *D. None of these*
-
-**Solution:**
-*   **Step 1:** Let the average age of the whole team (11 players) be $x$.
-    Total age of the team = $11x$.
-*   **Step 2:** Calculate the combined age of the Captain and Keeper.
-    Captain = 26.
-    Keeper = $26 + 3 = 29$.
-    Sum of their ages = $26 + 29 = 55$.
-*   **Step 3:** Calculate the average age of the remaining 9 players.
-    Total age of remaining 9 = $11x - 55$.
-    Average age of remaining 9 = $\frac{11x - 55}{9}$.
-*   **Step 4:** Setup the equation based on the condition.
-    $\frac{11x - 55}{9} = x - 1$
-    $11x - 55 = 9(x - 1)$
-    $11x - 55 = 9x - 9$
-    $2x = 46$
-    $x = 23$
-*   **Final Answer:** Option A.
+> **Solution:** Let average age of whole team = $x$. Total age = $11x$.
+> Captain = 26, Keeper = 29. Sum = 55.
+> Remaining 9 players total age = $11x - 55$.
+> Average of 9 players = $\frac{11x - 55}{9} = x - 1$.
+> $11x - 55 = 9x - 9 \Rightarrow 2x = 46 \Rightarrow x = 23$.
 
 **Q3. The sum of the present ages of a father and his son is 60 years. Six years ago, father's age was five times the age of the son. After 6 years, son's age will be:**
 *A. 12 years*
 *B. 14 years*
 *C. 18 years*
 *D. 20 years*
-
-**Solution:**
-*   **Step 1:** Let the present ages be $F$ (Father) and $S$ (Son).
-    $F + S = 60$
-    $F = 60 - S$
-*   **Step 2:** Setup the equation for 6 years ago.
-    $(F - 6) = 5 \times (S - 6)$
-*   **Step 3:** Substitute $F$ from Step 1 into Step 2.
-    $(60 - S - 6) = 5S - 30$
-    $54 - S = 5S - 30$
-    $6S = 84$
-    $S = 14$ (This is the son's present age).
-*   **Step 4:** Find the son's age after 6 years.
-    $14 + 6 = 20$ years.
-*   **Final Answer:** Option D.
+> **Solution:** Let present ages be $F$ and $S$. $F + S = 60 \Rightarrow F = 60 - S$.
+> 6 years ago: $(F - 6) = 5(S - 6)$
+> Substitute $F$: $(60 - S - 6) = 5S - 30 \Rightarrow 54 - S = 5S - 30 \Rightarrow 6S = 84 \Rightarrow S = 14$.
+> Son's age after 6 years = $14 + 6 = 20$ years.
 
 **Q4. A man is 24 years older than his son. In two years, his age will be twice the age of his son. The present age of his son is:**
 *A. 14 years*
 *B. 18 years*
 *C. 20 years*
 *D. 22 years*
-
-**Solution:**
-*   **Step 1:** Let the son's present age be $x$.
-    Man's present age = $x + 24$.
-*   **Step 2:** Define their ages in two years.
-    Man's age = $x + 24 + 2 = x + 26$.
-    Son's age = $x + 2$.
-*   **Step 3:** Setup the equation based on the condition.
-    $x + 26 = 2 \times (x + 2)$
-*   **Step 4:** Solve for $x$.
-    $x + 26 = 2x + 4$
-    $x = 22$
-*   **Final Answer:** Option D.
+> **Solution:** Let son's present age = $x$. Man's age = $x + 24$.
+> In two years: Man = $x + 26$, Son = $x + 2$.
+> Given: $x + 26 = 2(x + 2) \Rightarrow x + 26 = 2x + 4 \Rightarrow x = 22$.
 
 **Q5. The average age of husband, wife and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is:**
 *A. 35 years*
 *B. 40 years*
 *C. 50 years*
 *D. None of these*
-
-**Solution:**
-*   **Step 1:** Find the present sum of ages of Husband, Wife, and Child (H+W+C).
-    Sum 3 years ago = $27 \times 3 = 81$.
-    To find present sum, add 3 years for each of the 3 people ($3 \times 3 = 9$).
-    Present sum (H+W+C) = $81 + 9 = 90$ years.
-*   **Step 2:** Find the present sum of ages of Wife and Child (W+C).
-    Sum 5 years ago = $20 \times 2 = 40$.
-    To find present sum, add 5 years for each of the 2 people ($5 \times 2 = 10$).
-    Present sum (W+C) = $40 + 10 = 50$ years.
-*   **Step 3:** Subtract (W+C) from (H+W+C) to get the Husband's age.
-    Husband's present age = $90 - 50 = 40$ years.
-*   **Final Answer:** Option B.
+> **Solution:** Sum of present ages of (H+W+C) = $(27 \times 3) + (3 \times 3 \text{ for three years}) = 81 + 9 = 90$ years.
+> Sum of present ages of (W+C) = $(20 \times 2) + (2 \times 5 \text{ for five years}) = 40 + 10 = 50$ years.
+> Husband's present age = $(H+W+C) - (W+C) = 90 - 50 = 40$ years.
