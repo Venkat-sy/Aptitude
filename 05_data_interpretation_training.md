@@ -12,16 +12,42 @@
 | 02 | 34| 51| 45| 21| 8 | 159|
 
 **Q1. Max % of Type E to total production?**
-**Sol:** $98: 3/96 (3.1\%), 99: 4/116, 00: 5/123, 01: 6/139, 02: 8/159 (5.03\%)$. Max = 2002.
+**Sol:**
+$1998 = 3/96 \approx 3.1\%$
+$1999 = 4/116 \approx 3.4\%$
+$2000 = 5/123 \approx 4.06\%$
+$2001 = 6/139 \approx 4.3\%$
+$2002 = 8/159 \approx 5.03\%$
+Max = 2002
 
 **Q2. % increase of Type B from 1998 to 2002:**
-**Sol:** B(98)=34, B(02)=51. Inc = $17$. $\% = (17/34)*100 = 50\%$.
+**Sol:**
+$B(1998) = 34$
+$B(2002) = 51$
+$Increase = 51 - 34 = 17$
+$\% Increase = (17 / 34) \times 100$
+$= (1/2) \times 100$
+$= 50\%$
 
 **Q3. Type C (2001) is what % of Total (1999)?**
-**Sol:** C(01)=40, Tot(99)=116. $\% = (40/116)*100 = 34.48\%$.
+**Sol:**
+$C(2001) = 40$
+$Total(1999) = 116$
+$\% = (40 / 116) \times 100$
+$= (10 / 29) \times 100$
+$= 34.48\%$
 
 **Q4. Ratio Total A : Total C = ?**
-**Sol:** Total A = 145. Total C = 174. Ratio = $145:174 = 5:6$.
+**Sol:**
+$Total\ A = 27 + 29 + 25 + 30 + 34 = 145$
+$Total\ C = 23 + 31 + 35 + 40 + 45 = 174$
+$Ratio = 145 : 174$
+Divide by 29:
+$Ratio = 5 : 6$
 
 **Q5. Year where Total = Average Total?**
-**Sol:** Sum of Totals = 633. Avg = $633/5 = 126.6$. None match exactly.
+**Sol:**
+$Sum\ of\ Totals = 96 + 116 + 123 + 139 + 159 = 633$
+$Average = 633 / 5 = 126.6$
+Check total columns: None equal exactly 126.6
+Ans = None
