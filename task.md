@@ -1,0 +1,6 @@
+- `[/]` Create Module 1: Arithmetic Fundamentals Training
+- `[ ]` Create Module 2: Work, Speed & Measurement Training
+- `[ ]` Create Module 3: Probability & Counting Training
+- `[ ]` Create Module 4: Logical Reasoning Training
+- `[ ]` Create Module 5: Data Interpretation Training
+- `[ ]` Create Module 6: Verbal Ability Training
