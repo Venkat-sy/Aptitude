@@ -1,114 +1,68 @@
-# Training Module 2: Work, Speed & Measurement
+# Module 2: Work, Speed & Measurement
 
 ## 1. Time & Work
+**Q1. A in 15 days, B in 20 days. Work together 4 days. Fraction left?**
+**Sol:** $LCM(15,20)=60U$. $A=4U/d, B=3U/d$. $(4+3)*4 = 28U$ done. Left = $32/60 = 8/15$.
 
-**Q1. A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, then the fraction of the work that is left is:**
-> **Solution:** Total Work = LCM(15, 20) = 60 units. A's efficiency = 4 u/d. B's efficiency = 3 u/d.
-> Combined efficiency = 7 u/d. Work done in 4 days = 28 units.
-> Remaining = 60 - 28 = 32 units. Fraction left = 32/60 = 8/15.
+**Q2. A is twice as good as B. Together = 18 days. A alone = ?**
+**Sol:** $Eff: A=2, B=1$. Total $Eff = 3$. Work = $18*3=54U$. $A=54/2=27$ days.
 
-**Q2. A is twice as good a workman as B and together they finish a piece of work in 18 days. In how many days will A alone finish the work?**
-> **Solution:** Efficiency ratio A:B = 2:1. Total efficiency = 3 units/day.
-> Total Work = 18 days * 3 units/day = 54 units.
-> A alone time = 54 / 2 = 27 days.
+**Q3. 39 men, 12 days, 5 hrs/day. 30 men, 6 hrs/day -> ? days**
+**Sol:** $39*12*5 = 30*D*6 \Rightarrow D = (39*60)/180 = 13$ days.
 
-**Q3. 39 persons can repair a road in 12 days, working 5 hours a day. In how many days will 30 persons, working 6 hours a day, complete the work?**
-> **Solution:** Use MDH rule: M1*D1*H1 = M2*D2*H2.
-> 39 * 12 * 5 = 30 * D2 * 6 => D2 = (39*12*5)/(30*6) = 13 days.
+**Q4. (A+B)=30, (B+C)=24, (C+A)=20. Work together 10 days, B & C leave. A finish remaining in?**
+**Sol:** $LCM=120$. $A+B=4, B+C=5, C+A=6$. $2(A+B+C)=15 \Rightarrow A+B+C=7.5$. $A = 7.5-5 = 2.5$. Work = $10*7.5=75$. Left=$45$. $A = 45/2.5 = 18$ days.
 
-**Q4. A and B can do a piece of work in 30 days, while B and C can do the same work in 24 days and C and A in 20 days. They all work together for 10 days when B and C leave. How many days more will A take to finish the work?**
-> **Solution:** LCM(30, 24, 20) = 120. (A+B)=4, (B+C)=5, (C+A)=6.
-> 2(A+B+C) = 15 => A+B+C = 7.5.
-> A's efficiency = (A+B+C) - (B+C) = 7.5 - 5 = 2.5.
-> Work in 10 days by all = 10 * 7.5 = 75. Remaining = 120 - 75 = 45.
-> Time for A = 45 / 2.5 = 18 days.
-
-**Q5. A machine P can print one lakh books in 8 hours, machine Q can print the same number of books in 10 hours while machine R can print them in 12 hours. All the machines are started at 9 A.M. while machine P is closed at 11 A.M. and the remaining two machines complete work. Approximately at what time will the work be finished?**
-> **Solution:** Total work = LCM(8,10,12) = 120 units.
-> P=15, Q=12, R=10. Combined = 37.
-> In 2 hours (9 AM to 11 AM), work done = 37 * 2 = 74.
-> Remaining = 120 - 74 = 46. Remaining done by Q+R (12+10 = 22).
-> Time = 46/22 = 2.09 hours (~2 hrs). 11 AM + 2 hrs = 1 P.M.
+**Q5. P=8hr, Q=10hr, R=12hr. Start 9am. P close 11am. Finished at?**
+**Sol:** $LCM=120$. $P=15, Q=12, R=10$. $2hrs * (15+12+10) = 74U$. Left=$46U$. $Q+R = 22U/hr$. Time=$46/22 = \sim 2hrs$. $11am+2hrs = 1pm$.
 
 ---
-
 ## 2. Pipes & Cisterns
+**Q1. A=20min, B=30min. Together = ?**
+**Sol:** $LCM=60$. $A=3, B=2$. Time = $60/5 = 12$ min.
 
-**Q1. Two pipes A and B can fill a tank in 20 and 30 minutes respectively. If both the pipes are used together, then how long will it take to fill the tank?**
-> **Solution:** LCM(20, 30) = 60 units. A=3 u/m, B=2 u/m.
-> Total time = 60 / (3+2) = 60 / 5 = 12 mins.
+**Q2. Pump fills in 2hr. With leak = 7/3 hr. Leak empties in?**
+**Sol:** $Work=14U$. $Pump=7U/hr$. $Net=14/(7/3)=6U/hr$. $Leak = 6-7 = -1U/hr$. Time = $14/1 = 14$ hrs.
 
-**Q2. A pump can fill a tank with water in 2 hours. Because of a leak, it took 2(1/3) hours to fill the tank. The leak can drain all the water of the tank in:**
-> **Solution:** Pump takes 2 hrs. With leak = 7/3 hrs. LCM(2, 7/3) -> Let Work = 14 units.
-> Pump eff = 7. Net eff = 14 / (7/3) = 6.
-> Leak eff = Net - Pump = 6 - 7 = -1.
-> Time for leak = 14 / 1 = 14 hours.
+**Q3. A=37.5m (75/2), B=45m. Cistern filled in 30m. B turned off after?**
+**Sol:** $LCM(75,45)=225$. $A=6, B=5$. $A$ runs 30m $\Rightarrow 180U$. Left=$45U$. $B=45/5=9$ min.
 
-**Q3. Two pipes A and B can fill a cistern in 37(1/2) minutes and 45 minutes respectively. Both pipes are opened. The cistern will be filled in just half an hour, if the B is turned off after:**
-> **Solution:** A fills in 75/2 mins, B in 45 mins. LCM(75/2, 45) -> let work = 225.
-> A eff = 225 / (75/2) = 6. B eff = 225 / 45 = 5.
-> Cistern filled in 30 mins, meaning A worked for full 30 mins.
-> Work by A = 30 * 6 = 180. Remaining = 225 - 180 = 45.
-> This was done by B. B's time = 45 / 5 = 9 mins.
+**Q4. A=30, B=20, C=10 min. Discharge P,Q,R. Proportion of R after 3 mins?**
+**Sol:** Efficiencies $\Rightarrow A=1/30, B=1/20, C=1/10$. Ratio of flow $P:Q:R = 2:3:6$. Proportion $R = 6/11$.
 
-**Q4. Three pipes A, B and C can fill a tank from empty to full in 30 minutes, 20 minutes, and 10 minutes respectively. When the tank is empty, all the three pipes are opened. A, B and C discharge chemical solutions P,Q and R respectively. What is the proportion of solution R in the liquid in the tank after 3 minutes?**
-> **Solution:** Part filled by (A+B+C) in 3 mins = 3*(1/30 + 1/20 + 1/10) = 3*(11/60) = 33/60.
-> Part filled by C in 3 mins = 3/10 = 18/60.
-> Proportion of R = (18/60) / (33/60) = 18/33 = 6/11.
-
-**Q5. A water tank is two-fifth full. Pipe A can fill a tank in 10 minutes and pipe B can empty it in 6 minutes. If both the pipes are open, how long will it take to empty or fill the tank completely?**
-> **Solution:** Emptying pipe B is faster (6 mins vs 10 mins). Tank will empty.
-> Net emptying rate = 1/6 - 1/10 = (5-3)/30 = 2/30 = 1/15 per minute.
-> Tank is 2/5 full. Volume to empty = 2/5 of total.
-> Time = (2/5) / (1/15) = (2/5) * 15 = 6 minutes to empty.
+**Q5. Tank 2/5 full. A fills in 10m (+3U), B empties in 6m (-5U). Net?**
+**Sol:** $Capacity=30U$. Present = $12U$. Net Eff = $-2U/m$. Empty time = $12/2 = 6$ min.
 
 ---
-
 ## 3. Time, Speed & Distance
+**Q1. 240 kmph in 5 hrs. Same distance in 5/3 hrs speed = ?**
+**Sol:** $Dist = 240*5=1200$. $Speed = 1200/(5/3) = 720$ kmph.
 
-**Q1. An aeroplane covers a certain distance at a speed of 240 kmph in 5 hours. To cover the same distance in 1(2/3) hours, it must travel at a speed of:**
-> **Solution:** Distance = 240 * 5 = 1200 km.
-> New time = 5/3 hours. New Speed = 1200 / (5/3) = 1200 * 3 / 5 = 720 kmph.
+**Q2. 2/15 rail, 9/20 bus, 10km cycle. Total = ?**
+**Sol:** $1 - (2/15 + 9/20) = 1 - 35/60 = 25/60 = 5/12$. $5/12(D) = 10 \Rightarrow D = 24$ km.
 
-**Q2. A man performs 2/15 of the total journey by rail, 9/20 by bus and the remaining 10 km on cycle. His total journey is:**
-> **Solution:** Remaining fraction = 1 - (2/15 + 9/20) = 1 - (8+27)/60 = 1 - 35/60 = 25/60 = 5/12.
-> If 5/12 of Journey = 10 km, Total Journey = (10 * 12) / 5 = 24 km.
+**Q3. Speed 54 kmph, with stoppages 45 kmph. Stoppage mins/hr?**
+**Sol:** $Stoppage = ((54-45)/54)*60 = (9/54)*60 = 10$ mins.
 
-**Q3. Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?**
-> **Solution:** Stoppage time = (Difference in speed / Speed without stoppage) * 60
-> Time = ((54 - 45) / 54) * 60 = (9/54) * 60 = (1/6) * 60 = 10 mins.
+**Q4. Walk 14 km/hr instead of 10 km/hr -> 20km more. Actual dist?**
+**Sol:** $x/10 = (x+20)/14 \Rightarrow 14x = 10x+200 \Rightarrow x=50$ km.
 
-**Q4. If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:**
-> **Solution:** Let actual distance = x. Time is same.
-> x/10 = (x+20)/14 => 14x = 10x + 200 => 4x = 200 => x = 50 km.
-
-**Q5. A car traveling with 5/7 of its actual speed covers 42 km in 1 hr 40 min 48 sec. Find the actual speed of the car.**
-> **Solution:** Time = 1 hr 40 min 48 sec = 1 + 40/60 + 48/3600 = 1 + 2/3 + 1/75 = 126/75 hrs.
-> New speed = Distance / Time = 42 / (126/75) = 25 km/hr.
-> Actual speed * (5/7) = 25 => Actual speed = 25 * 7 / 5 = 35 km/hr.
+**Q5. Speed=5/7 of actual covers 42km in 1h 40m 48s. Actual speed?**
+**Sol:** $Time = 1 + 40/60 + 48/3600 = 126/75$ hrs. $NewSpeed = 42/(126/75) = 25$. $Actual*(5/7)=25 \Rightarrow Actual=35$ kmph.
 
 ---
-
 ## 4. Trains, Boats & Streams
+**Q1. Train1=27s, Train2=17s cross man. Cross each other=23s. Speed ratio?**
+**Sol:** Alligation on times: $(23-17) : (27-23) = 6:4 = 3:2$.
 
-**Q1. Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is:**
-> **Solution:** Let speeds be x and y. Lengths = 27x and 17y.
-> (27x + 17y) / (x + y) = 23
-> 27x + 17y = 23x + 23y => 4x = 6y => x/y = 3/2. Ratio is 3:2. (Shortcut: Use Alligation with times).
+**Q2. Train 125m passes man running 5kmph same dir in 10s. Train speed?**
+**Sol:** $Relative = (S-5)*5/18 = 125/10 = 12.5 \Rightarrow S-5 = 45 \Rightarrow S=50$ kmph.
 
-**Q2. A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:**
-> **Solution:** Relative speed = (S - 5) * 5/18. Distance = 125. Time = 10.
-> (S - 5) * 5/18 = 125/10 = 12.5 => S - 5 = 12.5 * 18/5 = 45 => S = 50 km/hr.
+**Q3. Boat=13, Stream=4. Time for 68km downstream?**
+**Sol:** $Down = 13+4 = 17$. $Time = 68/17 = 4$ hrs.
 
-**Q3. A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream.**
-> **Solution:** Downstream speed = 13 + 4 = 17 km/hr.
-> Time = 68 / 17 = 4 hours.
+**Q4. Downstream=15, Current=2.5. Upstream=?**
+**Sol:** $u+v = 15 \Rightarrow u+2.5=15 \Rightarrow u=12.5$. $Up = u-v = 12.5-2.5 = 10$ kmph.
 
-**Q4. A man's speed with the current is 15 km/hr and the speed of the current is 2.5 km/hr. The man's speed against the current is:**
-> **Solution:** Man's speed in still water (u) + current (v) = 15 => u + 2.5 = 15 => u = 12.5.
-> Speed against current (Upstream) = u - v = 12.5 - 2.5 = 10 km/hr.
-
-**Q5. A motorboat, whose speed in 15 km/hr in still water goes 30 km downstream and comes back in a total of 4 hours 30 minutes. The speed of the stream (in km/hr) is:**
-> **Solution:** 30 / (15 + v) + 30 / (15 - v) = 4.5.
-> Try options (e.g., 5). 30/20 + 30/10 = 1.5 + 3 = 4.5.
-> Hence, speed of stream is 5 km/hr.
+**Q5. Boat=15. 30km down + 30km up = 4.5 hrs. Stream=?**
+**Sol:** $30/(15+v) + 30/(15-v) = 4.5$. Test $v=5 \Rightarrow 30/20 + 30/10 = 1.5+3 = 4.5$. Ans: $5$ kmph.

@@ -1,90 +1,51 @@
-# Training Module 4: Logical Reasoning
+# Module 4: Logical Reasoning
 
-## 1. Number Series & Coding-Decoding
+## 1. Number Series & Coding
+**Q1. 1, 9, 25, 49, 81, ?**
+**Sol:** Squares of odd numbers: $1^2, 3^2, 5^2, 7^2, 9^2$. Next = $11^2 = 121$.
 
-**Q1. Find the next number: 1, 9, 25, 49, 81, ?**
-> **Solution:** The series consists of squares of consecutive odd numbers: $1^2, 3^2, 5^2, 7^2, 9^2$. The next is $11^2 = 121$.
+**Q2. 2, 5, 9, 19, 37, ?**
+**Sol:** Pattern: $*2+1$, $*2-1$. $(37*2)+1 = 75$.
 
-**Q2. Find the missing number: 2, 5, 9, 19, 37, ?**
-> **Solution:** The pattern is: (Previous * 2) + 1, (Previous * 2) - 1.
-> 2 * 2 + 1 = 5
-> 5 * 2 - 1 = 9
-> 9 * 2 + 1 = 19
-> 19 * 2 - 1 = 37
-> 37 * 2 + 1 = 75. Next is 75.
+**Q3. MADRAS -> NBESBT. BOMBAY -> ?**
+**Sol:** Pattern: $+1$ to each letter. BOMBAY -> CPNCBZ.
 
-**Q3. If in a certain language, MADRAS is coded as NBESBT, how is BOMBAY coded in that code?**
-> **Solution:** Each letter in the word is moved one step forward in the alphabet.
-> M(+1)=N, A(+1)=B, D(+1)=E...
-> BOMBAY = C(+1)P(+1)N(+1)C(+1)B(+1)Z. -> CPNCBZ.
+**Q4. Z = 52, ACT = 48. BAT = ?**
+**Sol:** Pos $* 2$. $Z=26*2=52$. $ACT = (1+3+20)*2 = 48$. $BAT = (2+1+20)*2 = 46$.
 
-**Q4. If Z = 52 and ACT = 48, then BAT will be equal to:**
-> **Solution:** In the English alphabet, Z is 26th. 26 * 2 = 52.
-> A=1, C=3, T=20. Sum = 24. 24 * 2 = 48.
-> BAT = B(2) + A(1) + T(20) = 23. 23 * 2 = 46.
-
-**Q5. In a certain code, '15789' is written as EGKPT and '2346' is written as ALUR. How is '23549' written in that code?**
-> **Solution:** Direct substitution.
-> 2 = A, 3 = L, 5 = G, 4 = U, 9 = T.
-> Answer is ALGUT.
+**Q5. 15789 -> EGKPT, 2346 -> ALUR. 23549 -> ?**
+**Sol:** Direct sub: 2=A, 3=L, 5=G, 4=U, 9=T $\Rightarrow$ ALGUT.
 
 ---
+## 2. Blood Relations & Direction
+**Q1. "He is the son of the only son of my mother" (Suresh).**
+**Sol:** "only son of my mother" = Suresh. "He is son of Suresh" $\Rightarrow$ Suresh is Father.
 
-## 2. Blood Relations & Direction Sense
+**Q2. Man to lady: "Your mother's husband's sister is my aunt."**
+**Sol:** Lady's aunt = Man's aunt. They are siblings $\Rightarrow$ Sister.
 
-**Q1. Pointing to a photograph of a boy Suresh said, "He is the son of the only son of my mother." How is Suresh related to that boy?**
-> **Solution:** The only son of Suresh's mother is Suresh himself.
-> Therefore, the boy is the son of Suresh. Suresh is the father.
+**Q3. Walk 5km South, Right turn (West) 3km, Left turn (South) 5km. Dir?**
+**Sol:** Total South = $5+5=10$. Total West = $3$. Direction = South-West.
 
-**Q2. A man said to a lady, "Your mother's husband's sister is my aunt." How is the lady related to the man?**
-> **Solution:** Lady's mother's husband = Lady's father.
-> Lady's father's sister = Lady's aunt.
-> If the lady's aunt is the man's aunt, they could be brother and sister. (Or cousins, but sister is the standard IndiaBix answer).
+**Q4. 6 PM hour hand points North. Minute hand at 9:15 PM?**
+**Sol:** 6 (South) -> North (180 deg rot). 9:15 minute hand normally at 3 (East). Rotated 180 $\Rightarrow$ West.
 
-**Q3. A man walks 5 km toward south and then turns to the right. After walking 3 km he turns to the left and walks 5 km. Now in which direction is he from the starting place?**
-> **Solution:** Start. South 5km. Right turn -> facing West. Walks 3km West. Left turn -> facing South. Walks 5km South.
-> Total South = 10km. Total West = 3km.
-> He is in South-West direction from the start.
-
-**Q4. Rahul put his timepiece on the table in such a way that at 6 P.M. hour hand points to North. In which direction the minute hand will point at 9.15 P.M.?**
-> **Solution:** At 6 PM, the hour hand points at 6 (normally South). If 6 points North, the clock is rotated 180 degrees.
-> At 9:15, the minute hand points at 3 (normally East). Since clock is rotated 180 degrees, it points West.
-
-**Q5. P, Q, R, S, T, U, V and W are sitting round the circle and are facing the centre: P is second to the right of T who is the neighbour of R and V. S is not the neighbour of P. V is the neighbour of U. Q is not between S and W. W is not between U and S. Which two of the following are not neighbours?**
-> **Solution:** Draw the circle based on constraints. RVT or TVR. P is 2nd right of T. Place them.
-> Following standard rules gives arrangement: R, T, V, U, W, S, Q, P (clockwise).
-> Options will be provided; check the derived circle.
+**Q5. Circle: R, T, V, U, W, S, Q, P.**
+**Sol:** Draw diagram with constraints. P 2nd right of T... gives layout above.
 
 ---
-
 ## 3. Syllogisms
+**Q1. All dogs are cats. Some cats are rats.**
+**Sol:** Dogs in Cats. Rats overlap Cats. I. Some dogs are rats (False). II. No dog is rat (False). Ans: Either I or II.
 
-**Q1. Statements: All dogs are cats. Some cats are rats.**
-**Conclusions: I. Some dogs are rats. II. No dog is rat.**
-> **Solution:** Draw Dogs inside Cats. Rats overlap with Cats.
-> Rats might overlap with Dogs, or might not.
-> I and II are complementary pairs (Some/No). Either I or II follows.
+**Q2. Some buildings are chalks. No chalk is toffee.**
+**Sol:** I. No building is toffee (False, toffee can touch non-chalk building). II. All chalks are buildings (False). Ans: Neither.
 
-**Q2. Statements: Some buildings are chalks. No chalk is toffee.**
-**Conclusions: I. No building is toffee. II. All chalks are buildings.**
-> **Solution:** Overlap Building and Chalk. Draw Toffee separate from Chalk.
-> Toffee can overlap with the non-chalk part of Building. Thus I is false.
-> Only some chalks are buildings, II is false. Neither follows.
+**Q3. All windows are doors. No door is a wall.**
+**Sol:** I. Some windows are walls (False). II. No wall is a door (True, reverse). Ans: Only II.
 
-**Q3. Statements: All windows are doors. No door is a wall.**
-**Conclusions: I. Some windows are walls. II. No wall is a door.**
-> **Solution:** Windows inside Doors. Walls separate from Doors.
-> Because Walls are separate from Doors, they are entirely separate from Windows inside.
-> I is false. II is true (Direct reverse of No door is wall). Only II follows.
+**Q4. Some papers are pens. All pencils are pens.**
+**Sol:** I. Some pens are pencils (True). II. Some pens are papers (True). Ans: Both.
 
-**Q4. Statements: Some papers are pens. All the pencils are pens.**
-**Conclusions: I. Some pens are pencils. II. Some pens are papers.**
-> **Solution:** Pencils inside Pens. Papers overlap with Pens.
-> Pens must overlap with Pencils (since Pencils are inside). I is true.
-> Papers overlap with Pens, so Pens overlap with Papers. II is true. Both I and II follow.
-
-**Q5. Statements: All buses are cars. All ships are cars.**
-**Conclusions: I. All cars are ships. II. All buses are ships.**
-> **Solution:** Buses and Ships are both separate circles inside the larger Cars circle.
-> Cars is larger, so I is false.
-> Buses and Ships don't necessarily overlap. II is false. Neither follows.
+**Q5. All buses are cars. All ships are cars.**
+**Sol:** I. All cars are ships (False). II. All buses are ships (False). Ans: Neither.
