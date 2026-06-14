@@ -28,6 +28,8 @@ The 3 vowels can be arranged among themselves in 3! = 6 ways.
 
 Total number of ways = (120 x 6) = 720.
 
+---
+
 2. Out of 7 consonants and 4 vowels, how many words of 3 consonants and 2 vowels can be formed?
 
 A) 210
@@ -52,6 +54,8 @@ Each of these 5 letters can be arranged among themselves in 5! ways = 120 ways.
 
 Total number of words formed = (210 x 120) = 25200.
 
+---
+
 3. How many 3-digit numbers can be formed from the digits 2, 3, 5, 6, 7 and 9, which are divisible by 5 and none of the digits is repeated?
 
 A) 5
@@ -73,6 +77,8 @@ The tens place can now be filled by any of the remaining 5 digits (5 ways).
 The hundreds place can now be filled by any of the remaining 4 digits (4 ways).
 
 Required number of numbers = (1 x 5 x 4) = 20.
+
+---
 
 4. In a group of 6 boys and 4 girls, four children are to be selected. In how many different ways can they be selected such that at least one boy should be there?
 
@@ -99,6 +105,8 @@ Total number of ways = (6C1 x 4C3) + (6C2 x 4C2) + (6C3 x 4C1) + (6C4)
 = 209.
 
 Alternatively: Total selections (10C4) - Selections with 0 boys (4C4) = 210 - 1 = 209.
+
+---
 
 5. A box contains 2 white balls, 3 black balls and 4 red balls. In how many ways can 3 balls be drawn from the box, if at least one black ball is to be included in the draw?
 
@@ -150,6 +158,8 @@ Probability of odd product = 9/36 = 1/4.
 
 Probability of even product = 1 - 1/4 = 3/4.
 
+---
+
 2. In a lottery, there are 10 prizes and 25 blanks. A lottery is drawn at random. What is the probability of getting a prize?
 
 A) 1/10
@@ -171,6 +181,8 @@ Number of favorable outcomes (getting a prize) = 10.
 Probability = Favorable Outcomes / Total Outcomes
 
 P(Prize) = 10 / 35 = 2/7.
+
+---
 
 3. From a pack of 52 cards, two cards are drawn together at random. What is the probability of both the cards being kings?
 
@@ -196,6 +208,8 @@ n(E) = 4C2 = (4 x 3) / (2 x 1) = 6.
 
 P(E) = n(E) / n(S) = 6 / 1326 = 1/221.
 
+---
+
 4. One card is drawn at random from a pack of 52 cards. What is the probability that the card drawn is a face card (Jack, Queen and King only)?
 
 A) 1/13
@@ -217,6 +231,8 @@ Each suit has 3 face cards (Jack, Queen, King).
 Total face cards = 4 x 3 = 12.
 
 Probability of drawing a face card = 12 / 52 = 3/13.
+
+---
 
 5. A bag contains 4 white, 5 red and 6 blue balls. Three balls are drawn at random from the bag. The probability that all of them are red, is:
 

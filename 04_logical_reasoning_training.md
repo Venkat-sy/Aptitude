@@ -32,6 +32,8 @@ Next number should be 11^2.
 
 11^2 = 121.
 
+---
+
 2. Find the missing number: 2, 5, 9, 19, 37, ?
 
 A) 73
@@ -59,6 +61,8 @@ The pattern alternates between multiplying by 2 and adding 1, and multiplying by
 Next number should be 37 x 2 + 1.
 
 37 x 2 + 1 = 74 + 1 = 75.
+
+---
 
 3. If in a certain language, MADRAS is coded as NBESBT, how is BOMBAY coded in that code?
 
@@ -104,6 +108,8 @@ Y -> Z
 
 So, BOMBAY is coded as CPNCBZ.
 
+---
+
 4. If Z = 52 and ACT = 48, then BAT will be equal to:
 
 A) 39
@@ -131,6 +137,8 @@ Similarly, for BAT:
 B = 2, A = 1, T = 20.
 
 BAT = (2 + 1 + 20) x 2 = 23 x 2 = 46.
+
+---
 
 5. In a certain code, '15789' is written as EGKPT and '2346' is written as ALUR. How is '23549' written in that code?
 
@@ -190,6 +198,8 @@ So, the statement becomes: "He is the son of Suresh."
 
 Therefore, Suresh is the father of the boy.
 
+---
+
 2. A man said to a lady, "Your mother's husband's sister is my aunt." How is the lady related to the man?
 
 A) Daughter
@@ -211,6 +221,8 @@ Lady's father's sister = Lady's aunt.
 So, Lady's aunt is man's aunt.
 
 Therefore, the lady and the man are siblings. The lady is the sister of the man.
+
+---
 
 3. A man walks 5 km toward south and then turns to the right. After walking 3 km he turns to the left and walks 5 km. Now in which direction is he from the starting place?
 
@@ -238,6 +250,8 @@ Total distance West from start = 3 km.
 
 Since he is both South and West of the starting point, his direction is South-West.
 
+---
+
 4. Rahul put his timepiece on the table in such a way that at 6 P.M. hour hand points to North. In which direction the minute hand will point at 9.15 P.M.?
 
 A) South-East
@@ -261,6 +275,8 @@ Normally, at 9:15 P.M., the minute hand points East (at the number 3).
 If we rotate the clock by 180 degrees, East becomes West.
 
 So, the minute hand will point West.
+
+---
 
 5. P, Q, R, S, T, U, V and W are sitting round the circle and are facing the centre: P is second to the right of T who is the neighbour of R and V. S is not the neighbour of P. V is the neighbour of U. Q is not between S and W. W is not between U and S. Which two of the following are not neighbours?
 
@@ -319,6 +335,8 @@ If it does not overlap, II is true and I is false.
 
 Since exactly one must be true, the answer is Either I or II follows.
 
+---
+
 2. Statements: Some buildings are chalks. No chalk is toffee.
 Conclusions: I. No building is toffee. II. All chalks are buildings.
 
@@ -343,6 +361,8 @@ Conclusion I: Toffees could overlap with the buildings that are not chalks, so t
 Conclusion II: Only some buildings are chalks, which does not mean all chalks are buildings.
 
 So, neither conclusion follows.
+
+---
 
 3. Statements: All windows are doors. No door is a wall.
 Conclusions: I. Some windows are walls. II. No wall is a door.
@@ -369,6 +389,8 @@ Conclusion II: "No door is a wall" implies directly that "No wall is a door". II
 
 So, only conclusion II follows.
 
+---
+
 4. Statements: Some papers are pens. All the pencils are pens.
 Conclusions: I. Some pens are pencils. II. Some pens are papers.
 
@@ -391,6 +413,8 @@ Conclusion I: Therefore, some pens are definitely pencils. I is true.
 Conclusion II: "Some papers are pens" directly implies "Some pens are papers". II is true.
 
 So, both I and II follow.
+
+---
 
 5. Statements: All buses are cars. All ships are cars.
 Conclusions: I. All cars are ships. II. All buses are ships.

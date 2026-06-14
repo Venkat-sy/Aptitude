@@ -40,6 +40,8 @@ For 2002 = (8 / 159) x 100 = 5.03%
 
 The maximum percentage is in the year 2002.
 
+---
+
 2. The percentage increase in the production of Type B vehicles from 1998 to 2002 is:
 
 A) 45%
@@ -65,6 +67,8 @@ Percentage increase = (17 / 34) x 100 %
 = (1 / 2) x 100 %
 
 = 50%.
+
+---
 
 3. The production of Type C vehicles in 2001 is approximately what percent of the total production of vehicles in 1999?
 
@@ -92,6 +96,8 @@ Required Percentage = (40 / 116) x 100 %
 
 = 34.48% (Approx 34.5%).
 
+---
+
 4. What is the ratio of the total production of Type A vehicles for the given years to the total production of Type C vehicles for the given years?
 
 A) 4 : 5
@@ -115,6 +121,8 @@ Required Ratio = 145 : 174
 Divide both sides by 29.
 
 Ratio = 5 : 6.
+
+---
 
 5. In which year was the total production of all types of vehicles exactly equal to the average total production over the given years?
 

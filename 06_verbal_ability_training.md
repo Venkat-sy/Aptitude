@@ -26,6 +26,8 @@ The main clause "One... is Samuel" is also correct.
 
 There is no grammatical error.
 
+---
+
 2. Find the error:
 
 A) The sceneries
@@ -45,6 +47,8 @@ Words like scenery, furniture, hair, information, etc., are uncountable nouns in
 Uncountable nouns do not have a plural form.
 
 Therefore, "sceneries" should be replaced with "scenery".
+
+---
 
 3. Find the error:
 
@@ -68,6 +72,8 @@ D) No error
 
 Therefore, "since" should be replaced with "for".
 
+---
+
 4. Choose the correctly spelt word out of the given alternatives.
 
 A) Ommission
@@ -85,6 +91,8 @@ D) Omision
 The root word is "Omit". When adding the suffix "-ion", the 't' becomes a double 's', but the 'm' remains single.
 
 The correct spelling is Omission.
+
+---
 
 5. Choose the word which is the exact OPPOSITE of the given words: OBSCURE
 
@@ -138,6 +146,8 @@ Sentence S concludes by giving the duration of the entire event.
 
 The correct sequence is R - Q - P - S.
 
+---
+
 2. Rearrange the following sentences.
 A. But he did not know how to find one at that hour.
 B. It was his first visit to the city and he didn't know where to go.
@@ -165,6 +175,8 @@ Sentence C is his decision based on the situation.
 Sentence A introduces a hurdle to his decision ("But he did not know...").
 
 The correct sequence is D - B - C - A.
+
+---
 
 3. Rearrange the following sentences.
 1. A dog stole a piece of meat from a butcher's shop.

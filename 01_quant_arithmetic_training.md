@@ -32,6 +32,8 @@ x = 33.
 
 So, their marks are (33 + 9) = 42 and 33.
 
+---
+
 2. If 20% of a = b, then b% of 20 is the same as:
 
 A) 4% of a
@@ -58,6 +60,8 @@ b/5 = (a/5) / 5 = a/25.
 
 a/25 = (1/25) x 100% of a = 4% of a.
 
+---
+
 3. The population of a town increased from 1,75,000 to 2,62,500 in a decade. The average percent increase of population per year is:
 
 A) 4.37%
@@ -77,6 +81,8 @@ Increase in 10 years = 2,62,500 - 1,75,000 = 87,500.
 Increase % = (87500 / 175000) x 100 % = 50%.
 
 Average percent increase per year = 50% / 10 = 5%.
+
+---
 
 4. A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had:
 
@@ -101,6 +107,8 @@ Then, (100 - 40)% of x = 420.
 x = (420 x 100) / 60
 
 x = 700.
+
+---
 
 5. In an election between two candidates, one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got, was:
 
@@ -160,6 +168,8 @@ Profit % = [ (20 - x) / x ] x 100 = 25.
 
 x = 16.
 
+---
+
 2. A vendor bought toffees at 6 for a rupee. How many for a rupee must he sell to gain 20%?
 
 A) 3
@@ -184,6 +194,8 @@ S.P. of 1 toffee = (120/100) x 1/6 = 1/5.
 
 For Re. 1, the number of toffees sold = 5.
 
+---
+
 3. A man buys a cycle for Rs. 1400 and sells it at a loss of 15%. What is the selling price of the cycle?
 
 A) Rs. 1090
@@ -203,6 +215,8 @@ S.P. = 85% of C.P.
 S.P. = (85/100) x 1400
 
 S.P. = Rs. 1190.
+
+---
 
 4. Some articles were bought at 6 articles for Rs. 5 and sold at 5 articles for Rs. 6. Gain percent is:
 
@@ -227,6 +241,8 @@ S.P. of 30 articles = Rs. (6/5 x 30) = Rs. 36.
 Gain = Rs. (36 - 25) = Rs. 11.
 
 Gain % = (11/25 x 100)% = 44%.
+
+---
 
 5. By selling an article for Rs. 800, a merchant makes a profit of 25%. What will be his selling price if he sells it at a loss of 25%?
 
@@ -280,6 +296,8 @@ Ratio of first two numbers = (6x/5) : (3x/2)
 
 = 4 : 5.
 
+---
+
 2. A sum of money is to be distributed among A, B, C, D in the proportion of 5 : 2 : 4 : 3. If C gets Rs. 1000 more than D, what is B's share?
 
 A) Rs. 500
@@ -303,6 +321,8 @@ C's share - D's share = 1000
 x = 1000.
 
 B's share = 2x = 2 x 1000 = Rs. 2000.
+
+---
 
 3. Seats for Mathematics, Physics and Biology in a school are in the ratio 5 : 7 : 8. There is a proposal to increase these seats by 40%, 50% and 75% respectively. What will be the ratio of increased seats?
 
@@ -332,6 +352,8 @@ New ratio = 70x : 105x : 140x
 
 Divide by 35x = 2 : 3 : 4.
 
+---
+
 4. In a mixture of 60 litres, the ratio of milk and water is 2 : 1. If this ratio is to be 1 : 2, then the quantity of water to be further added is:
 
 A) 20 litres
@@ -359,6 +381,8 @@ New ratio = Milk / (Water + x) = 1 / 2
 20 + x = 80
 
 x = 60.
+
+---
 
 5. The fourth proportional to 5, 8, 15 is:
 
@@ -410,6 +434,8 @@ Principal = Amount after 3 years - S.I. for 3 years
 
 Principal = 815 - 117 = Rs. 698.
 
+---
+
 2. At what rate of compound interest per annum will a sum of Rs. 1200 become Rs. 1348.32 in 2 years?
 
 A) 6%
@@ -438,6 +464,8 @@ R/100 = 0.06
 
 R = 6.
 
+---
+
 3. The simple interest on a certain sum of money for 2.5 years at 12% per annum is Rs. 40 less than the simple interest on the same sum for 3.5 years at 10% per annum. Find the sum.
 
 A) Rs. 600
@@ -463,6 +491,8 @@ Let the sum be x.
 x = (40 x 100) / 5
 
 x = 800.
+
+---
 
 4. There is 60% increase in an amount in 6 years at simple interest. What will be the compound interest of Rs. 12,000 after 3 years at the same rate?
 
@@ -495,6 +525,8 @@ Amount = 12000 x (1 + 10/100)^3
 = 12000 x (1331/1000) = 15972.
 
 C.I. = Amount - Principal = 15972 - 12000 = Rs. 3972.
+
+---
 
 5. The difference between simple interest and compound interest on a certain sum of money for 2 years at 4% per annum is Re. 1. The sum of money is:
 
@@ -546,6 +578,8 @@ It is quite possible that 19 of these numbers may be positive and if their sum i
 
 So, at most 19 numbers may be greater than zero.
 
+---
+
 2. The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?
 
 A) 23 years
@@ -582,6 +616,8 @@ Average age of 9 players = (11x - 55) / 9.
 
 x = 23.
 
+---
+
 3. The sum of the present ages of a father and his son is 60 years. Six years ago, father's age was five times the age of the son. After 6 years, son's age will be:
 
 A) 12 years
@@ -612,6 +648,8 @@ x = 14.
 
 Son's age after 6 years = (14 + 6) = 20 years.
 
+---
+
 4. A mother is twice as old as her son. If 20 years ago, the age of the mother was 10 times the age of the son, what is the present age of the mother?
 
 A) 38 years
@@ -641,6 +679,8 @@ Present age of the mother = 2x.
 x = 22.5.
 
 Present age of the mother = 2x = 45 years.
+
+---
 
 5. The average age of husband, wife and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is:
 
