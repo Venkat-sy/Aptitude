@@ -257,3 +257,181 @@ D) Sequential Allocation
 Indexed allocation brings all pointers together into a single index block for each file. This supports fast direct (random) access to any block without external fragmentation, though it does incur a slight overhead for storing the index block itself.
 
 ---
+
+11. Which CPU scheduling algorithm gives the highest priority to the process with the shortest remaining burst time?
+
+A) FCFS
+
+B) SJF
+
+C) SRTF
+
+D) Round Robin
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Shortest Remaining Time First (SRTF) is the preemptive version of SJF. It constantly monitors the ready queue; if a new process arrives with a shorter remaining burst time than the currently running process, the CPU is preempted and given to the new process.
+
+---
+
+12. A programmatic way in which a computer program requests a service from the kernel of the operating system is called a:
+
+A) System Call
+
+B) Function Call
+
+C) Interrupt
+
+D) Trap
+
+**Answer:** Option **A**
+
+**Explanation:**
+
+A system call provides an interface between a running program and the operating system. It is how a program requests a service (like file I/O or creating a process) that it does not have the permission to perform directly.
+
+---
+
+13. What is a Process Control Block (PCB)?
+
+A) A hardware chip that controls process execution.
+
+B) A data structure maintained by the OS for every process.
+
+C) The memory area where the process code is loaded.
+
+D) The queue where waiting processes are kept.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+A PCB (Process Control Block) is a data structure used by the operating system to store all the information about a specific process. This includes the process state, program counter, CPU registers, scheduling info, and memory-management info.
+
+---
+
+14. The issue where a low-priority process holds a resource required by a high-priority process is known as:
+
+A) Priority Inversion
+
+B) Starvation
+
+C) Deadlock
+
+D) Race Condition
+
+**Answer:** Option **A**
+
+**Explanation:**
+
+Priority Inversion is a scenario in scheduling where a high-priority task is indirectly preempted by a lower-priority task, effectively "inverting" the assigned priorities, usually due to a shared resource locked by the lower-priority task.
+
+---
+
+15. What does the term "Thrashing" mean in the context of virtual memory?
+
+A) A high rate of CPU execution.
+
+B) The OS spending more time paging (swapping pages in and out) than executing processes.
+
+C) A disk failure causing data corruption.
+
+D) Clearing the cache memory rapidly.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+Thrashing occurs when a computer's virtual memory subsystem is in a constant state of paging. The system spends most of its time swapping pages to and from the disk rather than actually executing the application programs.
+
+---
+
+16. Which of the following is an example of a preemptive scheduling algorithm?
+
+A) FCFS
+
+B) Round Robin
+
+C) Standard SJF
+
+D) None of the above
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+Round Robin is inherently preemptive. It assigns a fixed time slice (time quantum) to each process in the queue. If the process does not finish within this time slice, it is preempted and put at the back of the queue.
+
+---
+
+17. What hardware component maps a logical address to a physical address?
+
+A) ALU
+
+B) CPU
+
+C) MMU
+
+D) ROM
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The Memory Management Unit (MMU) is a computer hardware component responsible for handling accesses to memory requested by the CPU. Its primary function is the translation of virtual (logical) addresses to physical addresses.
+
+---
+
+18. A section of code where shared resources are accessed is known as:
+
+A) Executable Code
+
+B) Safe Zone
+
+C) Critical Section
+
+D) Deadlock Zone
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The Critical Section is a segment of code where processes access shared resources like variables, files, or databases. To prevent race conditions, only one process should be allowed to execute in its critical section at a given time.
+
+---
+
+19. Which of the following page replacement algorithms always guarantees the lowest possible page fault rate?
+
+A) FIFO
+
+B) LRU
+
+C) Optimal
+
+D) MRU
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The Optimal Page Replacement algorithm replaces the page that will not be used for the longest period of time in the future. It guarantees the lowest possible page-fault rate, but it is impossible to implement in practice because it requires future knowledge of reference strings.
+
+---
+
+20. Spooling is primarily used for which type of device?
+
+A) Keyboard
+
+B) Monitor
+
+C) CPU
+
+D) Printer
+
+**Answer:** Option **D**
+
+**Explanation:**
+
+Spooling (Simultaneous Peripheral Operations On-Line) is commonly used for printers. It puts jobs in a buffer (on disk or in memory) so that the slow printer can process them at its own speed while the CPU moves on to other tasks.

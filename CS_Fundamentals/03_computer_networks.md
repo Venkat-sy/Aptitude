@@ -238,3 +238,181 @@ D) SYN-ACK $\rightarrow$ SYN $\rightarrow$ ACK
 To establish a connection, the client sends a SYN (Synchronize) packet. The server responds with a SYN-ACK (Synchronize-Acknowledge) packet. Finally, the client sends an ACK (Acknowledge) packet back to the server.
 
 ---
+
+11. Which protocol resolves an IP address to a MAC address?
+
+A) RARP
+
+B) ARP
+
+C) DNS
+
+D) DHCP
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+ARP (Address Resolution Protocol) is used to map a known logical IP address to an unknown physical MAC address on a local network. RARP does the reverse.
+
+---
+
+12. The default port number for HTTP and HTTPS are respectively:
+
+A) 80 and 443
+
+B) 80 and 8080
+
+C) 443 and 80
+
+D) 21 and 22
+
+**Answer:** Option **A**
+
+**Explanation:**
+
+HTTP uses port 80 by default for unencrypted web traffic, while HTTPS uses port 443 for secure, encrypted web traffic using TLS/SSL.
+
+---
+
+13. What is the length of a MAC address?
+
+A) 16 bits
+
+B) 32 bits
+
+C) 48 bits
+
+D) 64 bits
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A MAC (Media Access Control) address is a 48-bit unique identifier assigned to network interfaces for communications at the data link layer of a network segment.
+
+---
+
+14. Which OSI layer handles data formatting, compression, and encryption?
+
+A) Application Layer
+
+B) Presentation Layer
+
+C) Session Layer
+
+D) Transport Layer
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+The Presentation Layer (Layer 6) is responsible for data translation, compression, and encryption/decryption, ensuring that data sent by the application layer of one system can be read by the application layer of another.
+
+---
+
+15. What type of cable is mostly used to construct a local area network (LAN) due to its resistance to interference?
+
+A) Coaxial Cable
+
+B) Fiber Optic Cable
+
+C) Twisted Pair Cable (UTP/STP)
+
+D) Ribbon Cable
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Unshielded Twisted Pair (UTP) or Shielded Twisted Pair (STP) cables are the most common media used for LANs (like Ethernet). Twisting the wires helps to cancel out electromagnetic interference (EMI).
+
+---
+
+16. Which network device operates at the Physical Layer and merely amplifies and regenerates the signal?
+
+A) Router
+
+B) Switch
+
+C) Repeater
+
+D) Bridge
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A Repeater operates at Layer 1 (Physical Layer). Its sole purpose is to receive a weakened or distorted signal, regenerate it, and transmit it further, extending the network's range.
+
+---
+
+17. Which routing protocol relies on the number of 'hops' to determine the best path to a destination?
+
+A) OSPF
+
+B) BGP
+
+C) RIP
+
+D) EIGRP
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Routing Information Protocol (RIP) is a distance-vector routing protocol that uses hop count as its routing metric. The path with the fewest hops is considered the best path.
+
+---
+
+18. What is the purpose of the Subnet Mask?
+
+A) To encrypt the IP address.
+
+B) To identify the MAC address of a device.
+
+C) To divide an IP address into network and host portions.
+
+D) To block malicious traffic from entering the network.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A subnet mask is a 32-bit number that masks an IP address, separating the IP address into a network address and a host address. This allows a large network to be divided into smaller subnets.
+
+---
+
+19. In IPv4, what is the loopback address used for testing the local network interface?
+
+A) 0.0.0.0
+
+B) 127.0.0.1
+
+C) 192.168.1.1
+
+D) 255.255.255.255
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+The IPv4 address 127.0.0.1 is the standard loopback address. It is used to test the TCP/IP suite on the local machine without sending packets out to a physical network.
+
+---
+
+20. Which protocol is primarily used for transferring files over the internet?
+
+A) SMTP
+
+B) SNMP
+
+C) FTP
+
+D) HTTP
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+FTP (File Transfer Protocol) is a standard network protocol used for the transfer of computer files between a client and server on a computer network. It typically uses ports 20 and 21.

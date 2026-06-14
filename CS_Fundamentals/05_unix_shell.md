@@ -243,3 +243,181 @@ D) `free`
 The `top` command (and its enhanced version `htop`) displays a real-time, frequently updated list of processes running on the system, along with memory and CPU usage statistics. `ps` only provides a static snapshot of processes at the moment it was executed.
 
 ---
+
+11. Which Linux command is used to display the first 10 lines of a file by default?
+
+A) `tail`
+
+B) `cat`
+
+C) `head`
+
+D) `less`
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The `head` command prints the first part (10 lines by default) of files to standard output. Conversely, the `tail` command outputs the last part of files.
+
+---
+
+12. In Linux, what does the `pwd` command stand for?
+
+A) Password
+
+B) Print working directory
+
+C) Path with directories
+
+D) Process working directory
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+The `pwd` (print working directory) command writes the full pathname of the current working directory to the standard output.
+
+---
+
+13. Which command is used to remove a non-empty directory in Linux?
+
+A) `rmdir`
+
+B) `rm -r`
+
+C) `del -d`
+
+D) `remove -all`
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+The `rmdir` command only removes empty directories. To remove a directory and all of its contents (files and subdirectories recursively), you must use the `rm` command with the `-r` (or `-R`) flag.
+
+---
+
+14. What symbol is used to pipe the output of one command as the input to another command?
+
+A) `>`
+
+B) `<`
+
+C) `|`
+
+D) `&`
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The vertical bar `|` is the pipe operator. It passes the standard output of the command on its left as the standard input to the command on its right (e.g., `ls -l | grep ".txt"`).
+
+---
+
+15. In a shell script, what does the `$?` variable store?
+
+A) The process ID of the current script.
+
+B) The number of arguments passed to the script.
+
+C) The exit status of the last executed command.
+
+D) The first argument passed to the script.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The `$?` special variable holds the exit status (or return code) of the most recently executed command. An exit status of `0` generally indicates success, while a non-zero value indicates an error.
+
+---
+
+16. Which directory in Linux contains system-wide configuration files?
+
+A) `/bin`
+
+B) `/etc`
+
+C) `/home`
+
+D) `/dev`
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+The `/etc` directory is the nerve center of a Linux system. It contains all system-wide configuration files and shell scripts that start system services.
+
+---
+
+17. How do you run a Linux process in the background?
+
+A) Append `&` to the end of the command.
+
+B) Prepend `bg` to the command.
+
+C) Use the `-b` flag.
+
+D) Press `Ctrl+C` while it is running.
+
+**Answer:** Option **A**
+
+**Explanation:**
+
+By appending an ampersand (`&`) to the end of a command (e.g., `sleep 100 &`), the shell executes the command in the background, immediately returning the prompt to the user so they can run other commands.
+
+---
+
+18. What does the `chmod a+x script.sh` command do?
+
+A) Adds execute permission for all users (owner, group, and others).
+
+B) Removes execute permission for all users.
+
+C) Adds execute permission only for the owner.
+
+D) Changes the owner of the script.
+
+**Answer:** Option **A**
+
+**Explanation:**
+
+In symbolic mode, `a` stands for 'all' (user, group, others), `+` means 'add permission', and `x` stands for 'execute'. Thus, `a+x` grants execute permission to everyone.
+
+---
+
+19. Which command displays the manual pages (help documentation) for other Linux commands?
+
+A) `help`
+
+B) `info`
+
+C) `man`
+
+D) `doc`
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The `man` command is the system's manual pager. Each page argument given to `man` is normally the name of a program, utility, or function. For example, `man ls` displays the manual for the `ls` command.
+
+---
+
+20. Which of the following is NOT a valid shell in Linux?
+
+A) Bash (Bourne Again SHell)
+
+B) Zsh (Z Shell)
+
+C) Ksh (KornShell)
+
+D) Csh (Compile SHell)
+
+**Answer:** Option **D**
+
+**Explanation:**
+
+Bash, Zsh, and Ksh are widely used Linux shells. 'Csh' usually refers to the C shell, not a "Compile SHell". Therefore, option D as described is invalid.

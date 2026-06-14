@@ -241,3 +241,185 @@ D) Connects the computer to a network.
 The Control Unit directs the operation of the processor. It tells the computer's memory, arithmetic and logic unit, and input and output devices how to respond to the instructions sent to the processor by generating the necessary control signals.
 
 ---
+
+11. A Pipeline is used in processors to:
+
+A) Increase memory capacity
+
+B) Decrease the clock speed
+
+C) Improve overall instruction throughput
+
+D) Reduce power consumption
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Pipelining is an implementation technique where multiple instructions are overlapped in execution. The computer pipeline is divided into stages, and each stage completes a part of an instruction. This increases the overall throughput of instructions per clock cycle.
+
+---
+
+12. What is a "Cache Miss"?
+
+A) When data requested by the CPU is found in the cache.
+
+B) When data requested by the CPU is not found in the cache and must be fetched from main memory.
+
+C) When the cache memory fails hardware diagnostics.
+
+D) When the cache memory is entirely full.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+A cache miss occurs when the CPU attempts to access data in the cache memory but does not find it there. It then must go to the slower main memory to retrieve the required data, causing a delay.
+
+---
+
+13. In boolean algebra, the expression `A + A'B` simplifies to:
+
+A) `A`
+
+B) `B`
+
+C) `A + B`
+
+D) `AB`
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Using the distributive law of boolean algebra, `A + A'B` can be factored.
+`A + A'B = (A + A')(A + B)`
+Since `A + A' = 1`, the expression simplifies to `1 * (A + B) = A + B`.
+
+---
+
+14. What does RISC stand for in computer architecture?
+
+A) Rapid Instruction Set Computer
+
+B) Reduced Instruction Set Computer
+
+C) Reliable Instruction Set Computer
+
+D) Random Instruction Set Computer
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+RISC stands for Reduced Instruction Set Computer. It is a CPU design strategy based on the insight that a simplified, smaller set of instructions provides higher performance when combined with a microprocessor architecture capable of executing those instructions using fewer microprocessor cycles per instruction.
+
+---
+
+15. An interrupt that cannot be ignored by the processor is called a:
+
+A) Maskable Interrupt
+
+B) Non-Maskable Interrupt (NMI)
+
+C) Vectored Interrupt
+
+D) Software Interrupt
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+A Non-Maskable Interrupt (NMI) is a hardware interrupt that standard interrupt-masking techniques in the system cannot ignore. It typically signals attention for non-recoverable hardware errors.
+
+---
+
+16. What is the decimal equivalent of the binary number `1101`?
+
+A) 11
+
+B) 12
+
+C) 13
+
+D) 15
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+To convert `1101` from binary to decimal:
+$(1 \times 2^3) + (1 \times 2^2) + (0 \times 2^1) + (1 \times 2^0)$
+$= 8 + 4 + 0 + 1 = 13$.
+
+---
+
+17. Which logic gate produces a HIGH output (1) only when all its inputs are HIGH (1)?
+
+A) OR Gate
+
+B) AND Gate
+
+C) XOR Gate
+
+D) NOR Gate
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+The AND gate is a basic digital logic gate that implements logical conjunction. A HIGH output (1) results only if all the inputs to the AND gate are HIGH (1).
+
+---
+
+18. In Indirect Addressing Mode, the operand address part of the instruction contains:
+
+A) The actual data value.
+
+B) The address of the data in memory.
+
+C) The address of a memory location or register that contains the address of the data.
+
+D) The base address of an array.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+In indirect addressing, the instruction specifies a location (either in memory or a register) whose contents are the *actual* address of the operand in memory, requiring an extra memory access to fetch the final data.
+
+---
+
+19. Which component acts as a temporary high-speed holding area for the results of ALU operations?
+
+A) Accumulator
+
+B) Memory Address Register
+
+C) Instruction Register
+
+D) Cache
+
+**Answer:** Option **A**
+
+**Explanation:**
+
+The accumulator is a register in which intermediate arithmetic and logic results are stored. Without an accumulator, it would be necessary to write the result of each calculation to main memory, which is much slower.
+
+---
+
+20. A 32-bit processor can address a maximum theoretical memory size of:
+
+A) 2 GB
+
+B) 4 GB
+
+C) 8 GB
+
+D) 16 GB
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+A 32-bit processor uses 32 bits to represent a memory address. The total number of unique addresses it can represent is $2^{32}$. $2^{32}$ bytes equals exactly 4 Gigabytes (GB).

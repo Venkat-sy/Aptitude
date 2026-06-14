@@ -162,3 +162,237 @@ D) To write a report detailing how the breach occurred.
 **Explanation:**
 
 Once a security breach is identified, the immediate next step is Containment. The goal is to isolate the affected systems or network segments to prevent the threat (e.g., a spreading worm or ransomware) from damaging further assets.
+
+---
+
+8. What is "Spear Phishing"?
+
+A) A phishing attack sent to millions of random email addresses.
+
+B) A targeted phishing attack aimed at a specific individual or organization.
+
+C) An attack involving physical USB drops.
+
+D) Hacking into a bank's database to steal credit card numbers.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+Spear phishing is highly targeted. Unlike standard phishing which uses a "spray and pray" approach, spear phishing attackers gather specific information about their target (like their name, job title, or colleagues) to make the fraudulent email appear highly convincing.
+
+---
+
+9. Which type of malware encrypts a user's files and demands a financial payment in exchange for the decryption key?
+
+A) Spyware
+
+B) Adware
+
+C) Ransomware
+
+D) Rootkit
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Ransomware is a type of malicious software designed to block access to a computer system or files until a sum of money is paid. It typically uses strong encryption so the user cannot recover the files without paying the attacker for the key.
+
+---
+
+10. Maintaining a strict "Chain of Custody" is crucial in which cyber security domain?
+
+A) Penetration Testing
+
+B) Software Development
+
+C) Digital Forensics
+
+D) Firewall Configuration
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+In Digital Forensics, the Chain of Custody is a chronological documentation that records the sequence of custody, control, transfer, analysis, and disposition of physical or electronic evidence. If this chain is broken, the evidence may be deemed inadmissible in a court of law.
+
+---
+
+11. An attacker alters the source IP address of their packets to make it appear as though the traffic is coming from a trusted internal IP. What is this technique called?
+
+A) Phishing
+
+B) IP Spoofing
+
+C) Sniffing
+
+D) SQL Injection
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+IP Spoofing is the creation of IP packets with a forged source IP address, with the purpose of concealing the identity of the sender or impersonating another computing system.
+
+---
+
+12. Which of the following is an example of a Social Engineering attack?
+
+A) Cross-Site Scripting
+
+B) Buffer Overflow
+
+C) Tailgating / Piggybacking
+
+D) Port Scanning
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Social engineering attacks exploit human psychology rather than technical vulnerabilities. Tailgating (following an authorized person into a secure restricted area without a badge) is a physical social engineering attack.
+
+---
+
+13. What is a "Zero-Day" vulnerability?
+
+A) A vulnerability that has existed for exactly one day.
+
+B) A security flaw that is known to the software vendor but does not yet have a patch available.
+
+C) A virus that wipes the hard drive clean (zeros it out).
+
+D) A flaw in the firewall hardware.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+A zero-day vulnerability refers to a security hole in software that is unknown to the vendor. Because the vendor has had "zero days" to fix the flaw, no patch exists, making it highly valuable to attackers.
+
+---
+
+14. The practice of testing a computer system, network, or web application to find security vulnerabilities that an attacker could exploit is called:
+
+A) Incident Response
+
+B) Digital Forensics
+
+C) Penetration Testing (Pen Testing)
+
+D) Network Monitoring
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Penetration testing (or ethical hacking) is an authorized simulated cyberattack on a computer system, performed to evaluate the security of the system. The goal is to identify weaknesses before malicious hackers can exploit them.
+
+---
+
+15. What does CSRF stand for in web security?
+
+A) Cross-Site Request Forgery
+
+B) Client-Server Resource Fetching
+
+C) Cross-Site Routing Firewall
+
+D) Code Security Response Framework
+
+**Answer:** Option **A**
+
+**Explanation:**
+
+Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated. It exploits the trust that a site has in a user's browser.
+
+---
+
+16. What is the primary purpose of a "Keylogger"?
+
+A) To encrypt the hard drive.
+
+B) To generate secure passwords.
+
+C) To secretly record the keystrokes pressed by a user.
+
+D) To unlock encrypted files.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A keylogger is a type of spyware that monitors and records every keystroke typed on a specific computer's keyboard. Attackers use it to steal passwords, credit card numbers, and other sensitive data.
+
+---
+
+17. Which of the following best describes the "Eradication" phase in Incident Response?
+
+A) Determining how the attack happened.
+
+B) Restoring systems to normal operation.
+
+C) Removing the malware, attacker access, and vulnerabilities that caused the breach.
+
+D) Writing a final report.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Once an incident is contained, the Eradication phase involves identifying the root cause of the incident and removing the threat entirely from the environment. This means deleting malware, disabling breached user accounts, and patching vulnerabilities.
+
+---
+
+18. What is "Whaling" in the context of cyber security?
+
+A) A massive DDoS attack against a large corporation.
+
+B) A highly targeted phishing attack aimed at senior executives (CEOs, CFOs).
+
+C) Stealing large databases of customer information.
+
+D) Using supercomputers to crack encryption keys.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+Whaling is a specific type of spear phishing attack directed specifically at high-profile and high-level targets within an organization, such as C-level executives. The goal is to trick them into authorizing large wire transfers or giving up highly sensitive company info.
+
+---
+
+19. Which security principle ensures that a user is given only the minimum level of access rights necessary to perform their job?
+
+A) Separation of Duties
+
+B) Defense in Depth
+
+C) Principle of Least Privilege
+
+D) Security through Obscurity
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The Principle of Least Privilege (PoLP) states that a subject (user, application, process) should be granted only the privileges necessary to complete its required tasks, and no more. This limits the potential damage from accidents or compromised accounts.
+
+---
+
+20. A program that appears to be a legitimate utility but actually contains malicious code is called a:
+
+A) Virus
+
+B) Trojan Horse
+
+C) Worm
+
+D) Logic Bomb
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+A Trojan Horse relies on deceiving the user into installing it by masquerading as a harmless or desirable program (like a game or a tool). Unlike viruses and worms, Trojans do not inject themselves into other files or self-replicate.

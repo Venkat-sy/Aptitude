@@ -160,3 +160,235 @@ D) Authorization
 Multi-Factor Authentication (MFA) requires the user to provide two or more verification factors to gain access. In this case, it combines "something you know" (password) with "something you have" (the mobile device receiving the OTP).
 
 ---
+
+8. Which protocol suite is commonly used to secure VPN connections by authenticating and encrypting each IP packet in a communication session?
+
+A) HTTP
+
+B) IPsec
+
+C) FTP
+
+D) SMTP
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+IPsec (Internet Protocol Security) is a secure network protocol suite that authenticates and encrypts the packets of data sent over an IP network. It is widely used in Virtual Private Networks (VPNs).
+
+---
+
+9. What is a "Honeypot" in network security?
+
+A) A highly secure database for storing passwords.
+
+B) A firewall configured to block all incoming traffic.
+
+C) A decoy system designed to attract and trap attackers to study their methods.
+
+D) A malware program that steals financial information.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A honeypot is a security mechanism setup to act as a decoy. It looks like a legitimate, vulnerable system on the network. Its purpose is to lure cyberattackers, allowing security teams to detect their presence, analyze their techniques, and gather intelligence.
+
+---
+
+10. Which of the following is considered "Something you are" in authentication?
+
+A) A smart card
+
+B) A PIN code
+
+C) A fingerprint
+
+D) A digital certificate
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+In authentication, "Something you are" refers to biometric characteristics unique to the individual, such as fingerprints, facial recognition, iris scans, or voice prints.
+
+---
+
+11. A packet filtering firewall operates primarily at which layer of the OSI model?
+
+A) Application Layer (Layer 7)
+
+B) Session Layer (Layer 5)
+
+C) Network Layer (Layer 3)
+
+D) Physical Layer (Layer 1)
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A packet filtering firewall primarily looks at IP addresses and port numbers to decide whether to allow or drop a packet. These elements belong to the Network (Layer 3) and Transport (Layer 4) layers of the OSI model.
+
+---
+
+12. What does an IDS "false positive" indicate?
+
+A) The IDS successfully blocked a real attack.
+
+B) The IDS missed a real attack that compromised the system.
+
+C) The IDS flagged legitimate, normal network traffic as malicious.
+
+D) The IDS crashed due to excessive traffic.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A "false positive" in an Intrusion Detection System occurs when the system incorrectly identifies benign, normal activity as anomalous or malicious, generating a false alarm that wastes administrators' time.
+
+---
+
+13. Which of the following best describes a DMZ (Demilitarized Zone) in network security?
+
+A) A physical room where servers are locked away.
+
+B) A highly secure internal network segment.
+
+C) A subnetwork that exposes an organization's external-facing services to an untrusted network like the Internet.
+
+D) A protocol for encrypting wireless networks.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A DMZ is a physical or logical subnetwork that contains and exposes an organization's external-facing services (like web, email, or DNS servers) to a larger, untrusted network, usually the Internet. It acts as an isolated buffer between the Internet and the private internal network.
+
+---
+
+14. Why is a Proxy Firewall (Application-Level Gateway) generally considered more secure than a basic Packet Filter?
+
+A) It works faster.
+
+B) It inspects the actual data payload at the application layer, not just the headers.
+
+C) It uses artificial intelligence.
+
+D) It encrypts all traffic.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+A proxy firewall completely breaks the connection between client and server. It deeply inspects the actual application payload (e.g., the contents of an HTTP request) rather than just looking at the IP addresses and ports, making it much harder to bypass with sophisticated attacks.
+
+---
+
+15. Role-Based Access Control (RBAC) restricts system access based on:
+
+A) The time of day the user logs in.
+
+B) The user's biometric data.
+
+C) The roles assigned to individual users within an organization.
+
+D) The IP address of the user.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+In Role-Based Access Control (RBAC), access permissions are assigned to specific roles (e.g., 'Admin', 'Editor', 'Viewer'), and users are assigned to those roles. A user receives only the permissions associated with their role.
+
+---
+
+16. What is the main vulnerability of Signature-based IDS?
+
+A) They generate too many false positives.
+
+B) They cannot detect new, unknown attacks (zero-days) that lack a signature.
+
+C) They consume too much bandwidth.
+
+D) They cannot be updated.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+Because a signature-based IDS relies on a database of known attack patterns (signatures), it is completely blind to new, novel attacks that have not yet been analyzed and added to the database.
+
+---
+
+17. Which of the following is a common tunneling protocol used for VPNs?
+
+A) HTTP
+
+B) SMTP
+
+C) L2TP (Layer 2 Tunneling Protocol)
+
+D) ICMP
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+L2TP is a widely used tunneling protocol used to support virtual private networks (VPNs) or as part of the delivery of services by ISPs. It does not provide encryption by itself, so it is usually paired with IPsec for security (L2TP/IPsec).
+
+---
+
+18. What is "Network Segmentation"?
+
+A) Combining multiple networks into one large network for speed.
+
+B) Dividing a computer network into smaller parts to improve performance and security.
+
+C) Using a router to connect to the internet.
+
+D) Deleting old user accounts from the network.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+Network segmentation involves partitioning a network into smaller, isolated subnetworks. This improves security by limiting how far an attacker can move laterally if they manage to breach one segment.
+
+---
+
+19. MAC address filtering on a wireless router is an example of which security concept?
+
+A) Authorization
+
+B) Access Control
+
+C) Encryption
+
+D) Non-repudiation
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+MAC filtering is a basic form of network access control. The router checks the physical MAC address of a connecting device against a whitelist of approved addresses, denying access to any device not on the list.
+
+---
+
+20. A "Zero Trust" security model operates on the principle of:
+
+A) Trusting all internal network traffic implicitly.
+
+B) "Trust, but verify".
+
+C) Never trusting any user or device by default, whether inside or outside the network perimeter.
+
+D) Only trusting devices with an active antivirus.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Zero Trust is a security framework requiring all users, whether in or outside the organization's network, to be authenticated, authorized, and continuously validated for security configuration and posture before being granted or keeping access to applications and data. ("Never trust, always verify").

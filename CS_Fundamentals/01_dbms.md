@@ -256,3 +256,181 @@ D) When a user forgets to COMMIT a transaction.
 A deadlock is a situation where transaction A holds a lock on Resource 1 and is waiting for Resource 2, while transaction B holds a lock on Resource 2 and is waiting for Resource 1. Neither can proceed, resulting in a permanent block.
 
 ---
+
+11. Which SQL command is part of the Data Control Language (DCL)?
+
+A) UPDATE
+
+B) GRANT
+
+C) COMMIT
+
+D) CREATE
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+Data Control Language (DCL) includes commands like GRANT and REVOKE, which are used to give or take away user permissions and privileges on database objects.
+
+---
+
+12. In the ER Model, a derived attribute is represented by:
+
+A) A dashed oval
+
+B) A double oval
+
+C) A rectangle
+
+D) An underlined oval
+
+**Answer:** Option **A**
+
+**Explanation:**
+
+A derived attribute is one whose value can be derived from the values of other related attributes or entities (e.g., calculating Age from Date of Birth). It is represented by a dashed oval in an ER diagram.
+
+---
+
+13. What is the purpose of the Foreign Key in a relational database?
+
+A) To uniquely identify a record in the same table.
+
+B) To maintain referential integrity between two tables.
+
+C) To automatically increment a counter for new records.
+
+D) To index the table for faster searching.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+A foreign key is a column or a group of columns in a relational database table that provides a link between data in two tables. It acts as a cross-reference between tables because it references the primary key of another table, thereby maintaining referential integrity.
+
+---
+
+14. Which property of a transaction ensures that concurrent transactions execute without interfering with each other?
+
+A) Atomicity
+
+B) Consistency
+
+C) Isolation
+
+D) Durability
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Isolation ensures that the concurrent execution of transactions leaves the database in the same state that would have been obtained if the transactions were executed sequentially.
+
+---
+
+15. What type of anomaly occurs when deleting a row in a table results in the loss of other important, unrelated data?
+
+A) Insertion Anomaly
+
+B) Deletion Anomaly
+
+C) Update Anomaly
+
+D) Normalization Anomaly
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+A deletion anomaly occurs when the deletion of a record to remove certain information unexpectedly causes the loss of other entirely different and unrelated information because they are stored together in the same unnormalized table.
+
+---
+
+16. Which SQL clause is used to sort the result set in ascending or descending order?
+
+A) GROUP BY
+
+B) HAVING
+
+C) ORDER BY
+
+D) SORT BY
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The ORDER BY clause is used to sort the result-set in ascending (ASC) or descending (DESC) order based on one or more columns.
+
+---
+
+17. If a table has a primary key consisting of multiple columns, it is called a:
+
+A) Foreign Key
+
+B) Composite Key
+
+C) Alternate Key
+
+D) Super Key
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+A composite key is a primary key that consists of two or more columns to uniquely identify a row in a table.
+
+---
+
+18. In SQL, the LIKE operator is used for:
+
+A) Finding exact numeric matches
+
+B) Pattern matching using wildcards
+
+C) Comparing dates
+
+D) Joining two tables
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column, using wildcards such as '%' (zero or more characters) and '_' (a single character).
+
+---
+
+19. Which normal form dictates that all attributes in a relation must be atomic?
+
+A) First Normal Form (1NF)
+
+B) Second Normal Form (2NF)
+
+C) Third Normal Form (3NF)
+
+D) Boyce-Codd Normal Form (BCNF)
+
+**Answer:** Option **A**
+
+**Explanation:**
+
+First Normal Form (1NF) requires that the values in each column of a table are atomic (indivisible). There can be no multi-valued attributes or repeating groups.
+
+---
+
+20. A B-Tree index is most efficient for which type of queries?
+
+A) Exact match queries only
+
+B) Range queries (e.g., BETWEEN, >, <)
+
+C) Full-text search
+
+D) Boolean queries
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+Because B-Trees store data in a sorted order, they are extremely efficient for both exact match queries and range queries (like retrieving all records where age is between 20 and 30).

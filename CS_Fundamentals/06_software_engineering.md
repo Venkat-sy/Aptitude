@@ -232,3 +232,181 @@ D) Requirement Elicitation
 COCOMO (Constructive Cost Model) is a procedural software cost estimation model developed by Barry Boehm. It uses basic regression formulas with parameters derived from historical project data to estimate the effort, cost, and schedule for a software project.
 
 ---
+
+11. Which SDLC model is characterized by its linear, sequential flow where one phase must be completed before the next begins?
+
+A) Agile Model
+
+B) Iterative Model
+
+C) Waterfall Model
+
+D) Spiral Model
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The Waterfall Model is a classic SDLC model. It is completely linear and sequential. Progress is seen as flowing steadily downwards (like a waterfall) through the phases of conception, initiation, analysis, design, construction, testing, deployment, and maintenance.
+
+---
+
+12. Alpha and Beta testing are forms of:
+
+A) Unit Testing
+
+B) Integration Testing
+
+C) Acceptance Testing
+
+D) System Testing
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Alpha testing (done by internal employees) and Beta testing (done by real users in a real environment before official release) are both types of Acceptance Testing. They determine whether the software is ready for release to the general public.
+
+---
+
+13. The SRS (Software Requirement Specification) document is primarily created during which phase of the SDLC?
+
+A) Requirement Analysis
+
+B) Design
+
+C) Coding
+
+D) Testing
+
+**Answer:** Option **A**
+
+**Explanation:**
+
+The Software Requirement Specification (SRS) document is the primary output of the Requirement Analysis phase. It describes the software's functional and non-functional requirements in detail, acting as a contract between developers and clients.
+
+---
+
+14. Which metric measures the size of a software product based on the functionalities requested by and provided to the end user?
+
+A) Lines of Code (LOC)
+
+B) Function Point Analysis (FPA)
+
+C) Cyclomatic Complexity
+
+D) Halstead's Volume
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+Function Point Analysis is a method to estimate the size of a software project based on the functionality delivered to the user (e.g., number of inputs, outputs, inquiries, internal files). It is independent of the programming language used, unlike LOC.
+
+---
+
+15. In object-oriented design, the principle of hiding the internal state and requiring all interaction to be performed through an object's methods is known as:
+
+A) Inheritance
+
+B) Polymorphism
+
+C) Encapsulation
+
+D) Abstraction
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Encapsulation is the bundling of data (attributes) and methods that operate on the data into a single unit (class), and restricting direct access to some of the object's components.
+
+---
+
+16. Which UML diagram models the dynamic behavior of a system by showing the flow of control from one activity to another?
+
+A) Class Diagram
+
+B) Object Diagram
+
+C) Activity Diagram
+
+D) Component Diagram
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+An Activity diagram is a behavioral UML diagram that represents the workflow or logic of a system. It shows the flow of control from one activity to another, similar to a flowchart.
+
+---
+
+17. White box testing is also known as:
+
+A) Functional Testing
+
+B) Structural Testing
+
+C) User Acceptance Testing
+
+D) Beta Testing
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+White box testing is also called structural testing, clear box testing, or glass box testing because the tester requires an understanding of the internal structure, code, and logic of the software to design the test cases.
+
+---
+
+18. What is "Refactoring" in software engineering?
+
+A) Rewriting the software from scratch in a new language.
+
+B) Testing the software repeatedly to find bugs.
+
+C) Improving the internal structure of existing code without changing its external behavior.
+
+D) Adding new features to an existing software product.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Code refactoring is the process of restructuring existing computer code—changing the factoring—without changing its external behavior. It improves nonfunctional attributes of the software, making the code more readable and less complex.
+
+---
+
+19. Which role in Scrum acts as a facilitator for the team, removing impediments and ensuring Scrum practices are followed?
+
+A) Product Owner
+
+B) Developer
+
+C) Scrum Master
+
+D) Project Manager
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The Scrum Master is responsible for ensuring the team lives agile values and principles and follows the processes and practices that the team agreed they would use. They act as a servant-leader and facilitator, protecting the team from distractions.
+
+---
+
+20. A Gantt chart is a tool primarily used for:
+
+A) Risk Analysis
+
+B) Code Review
+
+C) Project Scheduling and Tracking
+
+D) Database Design
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A Gantt chart is a type of bar chart that illustrates a project schedule. It lists the tasks to be performed on the vertical axis, and time intervals on the horizontal axis. It is a fundamental tool for project managers to track progress against time.

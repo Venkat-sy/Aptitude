@@ -170,3 +170,235 @@ D) Data compression
 Non-repudiation ensures that a sender cannot deny having sent a message. Because a digital signature is created using the sender's unique private key, they cannot later claim someone else forged the signature. Symmetric encryption (where both parties share the key) cannot provide this because either party could have created the message.
 
 ---
+
+8. What is a major disadvantage of Symmetric Key Cryptography compared to Asymmetric Key Cryptography?
+
+A) It is much slower.
+
+B) The key distribution problem.
+
+C) It uses more CPU power.
+
+D) It cannot encrypt large files.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+The biggest challenge with symmetric cryptography is key distribution. The secret key must be shared between the sender and receiver securely before they can communicate. If an attacker intercepts the key during this initial distribution, the entire system is compromised.
+
+---
+
+9. In Asymmetric Cryptography, if Alice wants to send a secret, confidential message to Bob, which key should she use to encrypt the message?
+
+A) Alice's Public Key
+
+B) Alice's Private Key
+
+C) Bob's Public Key
+
+D) Bob's Private Key
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+To ensure confidentiality, Alice must encrypt the message with Bob's Public Key. This guarantees that only Bob (who is the sole possessor of Bob's Private Key) can decrypt and read the message.
+
+---
+
+10. A cryptographic attack that systematically tries every possible key until the correct one is found is called a:
+
+A) Dictionary Attack
+
+B) Man-in-the-Middle Attack
+
+C) Brute-Force Attack
+
+D) Replay Attack
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A brute-force attack involves exhausting the entire key space by trying every possible combination of a cryptographic key or password until the correct one is found. The effectiveness of this attack depends on the length of the key.
+
+---
+
+11. Which of the following is a widely used hashing algorithm that produces a 256-bit hash value?
+
+A) MD5
+
+B) SHA-1
+
+C) SHA-256
+
+D) RC4
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+SHA-256 (Secure Hash Algorithm 256-bit) is a widely used cryptographic hash function belonging to the SHA-2 family. It deterministically generates a 256-bit (32-byte) signature for a text. MD5 produces a 128-bit hash, and SHA-1 produces a 160-bit hash.
+
+---
+
+12. The process of hiding a secret message within a larger, ordinary-looking file (like an image or audio file) is called:
+
+A) Encryption
+
+B) Hashing
+
+C) Steganography
+
+D) Watermarking
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. While cryptography scrambles a message to make it unreadable, steganography hides the very existence of the message.
+
+---
+
+13. What is the block size used by the Advanced Encryption Standard (AES)?
+
+A) 64 bits
+
+B) 128 bits
+
+C) 256 bits
+
+D) 512 bits
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+AES operates on a fixed block size of 128 bits. While it supports three different key lengths (128, 192, and 256 bits), the block size it encrypts at one time is always exactly 128 bits.
+
+---
+
+14. Which cryptographic concept ensures that even if an attacker intercepts the ciphertext, they cannot figure out the original plaintext without the key?
+
+A) Integrity
+
+B) Non-repudiation
+
+C) Confidentiality
+
+D) Availability
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+Confidentiality is the principle that information should only be accessible to authorized parties. Encryption provides confidentiality by transforming plaintext into ciphertext, making it unreadable to anyone without the decryption key.
+
+---
+
+15. What is a "Salt" in the context of password hashing?
+
+A) A secret key used to decrypt the password.
+
+B) A random string of data added to the password before hashing.
+
+C) An algorithm used to compress the password.
+
+D) The process of resetting a forgotten password.
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+A salt is a random string of characters added to a password before it is hashed. This ensures that even if two users have the exact same password, their hashes will be completely different, protecting against rainbow table attacks.
+
+---
+
+16. In the context of digital certificates, what does a Certificate Authority (CA) do?
+
+A) Encrypts all web traffic on the internet.
+
+B) Generates symmetric keys for users.
+
+C) Verifies the identity of entities and issues digital certificates binding their identity to a public key.
+
+D) Stores all private keys securely.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A Certificate Authority (CA) is a trusted third-party organization that acts as a notary. It verifies the identity of an individual or organization and issues a digital certificate, which contains the entity's public key and is digitally signed by the CA.
+
+---
+
+17. An attacker intercepts an encrypted message and its hash. They alter the message and compute a new hash, sending both to the receiver. To prevent this, what should be used instead of a standard hash?
+
+A) A larger key size
+
+B) Asymmetric encryption
+
+C) Message Authentication Code (MAC)
+
+D) Steganography
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+A MAC is similar to a hash, but it uses a shared secret key. Because the attacker does not possess the secret key, they cannot generate a valid MAC for the altered message. The receiver will compute the MAC using the shared key and realize it doesn't match the received MAC, thus detecting the tampering.
+
+---
+
+18. Which attack involves an attacker secretly relaying and possibly altering the communications between two parties who believe they are directly communicating with each other?
+
+A) Denial of Service (DoS)
+
+B) Man-in-the-Middle (MitM)
+
+C) Brute-Force
+
+D) Phishing
+
+**Answer:** Option **B**
+
+**Explanation:**
+
+In a Man-in-the-Middle (MitM) attack, the attacker intercepts the communication channel between two parties. The attacker can eavesdrop on the conversation or even inject false messages, while both victims believe they are talking securely to one another.
+
+---
+
+19. Which of the following is considered an older, broken hash function that should no longer be used for secure applications due to collision vulnerabilities?
+
+A) SHA-256
+
+B) SHA-3
+
+C) MD5
+
+D) AES
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+MD5 (Message-Digest algorithm 5) is a widely used but fundamentally broken hash function. Researchers have demonstrated how to easily generate collisions (two different inputs producing the same MD5 hash), making it unsuitable for security-critical tasks like digital signatures.
+
+---
+
+20. The Diffie-Hellman algorithm is used primarily for:
+
+A) Encrypting massive databases.
+
+B) Generating digital signatures.
+
+C) Securely exchanging cryptographic keys over a public channel.
+
+D) Hashing user passwords.
+
+**Answer:** Option **C**
+
+**Explanation:**
+
+The Diffie-Hellman key exchange is a mathematical method of securely exchanging cryptographic keys over a public channel. It allows two parties that have no prior knowledge of each other to jointly establish a shared secret key, which can then be used for symmetric encryption.
